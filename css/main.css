@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+}
+.secNav{
+    
+}
+.secNav,.secNav div nav,.secNav div nav{
+    background-color: #0F1D2E;
+   
+}
+
+
+/*pc grande*/
+@media only screen and (min-width:1200px){
+    header{
+        width: 100%;
+        height: 580px;
+        overflow: hidden;
+    }
+    .ht1{
+        position: relative;
+        margin-top: -240px;
+        z-index: -1;
+   
+      
+    }
+    .secNav{
+        position: relative;
+        z-index: 2;
+        position: fixed;
+        width: 100%
+    }
+    .sectNav{
+
+    }
+}
+
+
+
+
+/*pc pequeña*/
+@media only screen and (min-width:992px)and (max-width:1199px){
+
+
+
+
+}
+
+/*tablet*/
+@media only screen and (min-width:600px) and (max-width:992px){
+
+
+}
+
+/*moviles*/
+@media only screen and (max-width:600px){
+
+
+}
