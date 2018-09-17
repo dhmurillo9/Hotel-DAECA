@@ -45,7 +45,27 @@ header{
 /*pc pequeña*/
 @media only screen and (min-width:992px)and (max-width:1199px){
 
+    header{
+        width: 100%;
+        height: 580px;
+        overflow: hidden;
+    }
+    .ht1{
+        position: relative;
+        margin-top: -240px;
+        z-index: -1;
+   
+      
+    }
+    .secNav{
+        position: relative;
+        z-index: 2;
+        position: fixed;
+        width: 100%
+    }
+    .sectNav{
 
+    }
 
 
 }
@@ -53,11 +73,51 @@ header{
 /*tablet*/
 @media only screen and (min-width:600px) and (max-width:992px){
 
+    header{
+        width: 100%;
+        height: 580px;
+        overflow: hidden;
+    }
+    .ht1{
+        position: relative;
+        margin-top: -240px;
+        z-index: -1;
+   
+      
+    }
+    .secNav{
+        position: relative;
+        z-index: 2;
+        position: fixed;
+        width: 100%
+    }
+    .sectNav{
 
+    }
 }
 
 /*moviles*/
 @media only screen and (max-width:600px){
+    header{
+        width: 100%;
+        height: 580px;
+        overflow: hidden;
+    }
+    .ht1{
+        position: relative;
+        margin-top: -240px;
+        z-index: -1;
+   
+      
+    }
+    .secNav{
+        position: relative;
+        z-index: 2;
+        position: fixed;
+        width: 100%
+    }
+    .sectNav{
 
+    }
 
 }

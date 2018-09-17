@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registro a Clientes</title>
+        <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
+            authDomain: "hotel-daeca.firebaseapp.com",
+            databaseURL: "https://hotel-daeca.firebaseio.com",
+            projectId: "hotel-daeca",
+            storageBucket: "hotel-daeca.appspot.com",
+            messagingSenderId: "829762605681"
+          };
+          firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>   
+        <h2>INGRESO DE USUARIOS</h2>
+        <input id="email1" type="email" placeholder="Ingresa email">
+        <input id="contrasena1" type="password" placeholder="Ingresa contrasena">
+        <button onclick="ingreso()">Acceder</button>
+
+        <div id="contenido"></div>
+          
+        <script src="/js/main.js"></script>       
+        
+    </body>
+</html>

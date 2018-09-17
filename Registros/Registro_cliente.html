@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registro a Clientes</title>
+        <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+       
+        <script  src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> 
+        <script>  // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
+            authDomain: "hotel-daeca.firebaseapp.com",
+            databaseURL: "https://hotel-daeca.firebaseio.com",
+            projectId: "hotel-daeca",
+            storageBucket: "hotel-daeca.appspot.com",
+            messagingSenderId: "829762605681"
+          };
+          firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>   
+        <h1>FORMULARIO DE REGISTRO DE CLIENTES</h1>
+ 
+            <h2 class="form_titulo">CREA UNA CUENTA</h2>
+            <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
+            <div class="contenedor-inputs">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" required>
+                <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48" required>
+                <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48" required>
+                <input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="input-100" required>
+                <input type="submit" value="Registrar" class="btn-enviar">
+                // <p class="form_link">Ya tienes cuenta? <a href="Ingresa aqui"</a></a></p>
+            
+            </div>
+        
+        </form>
+
+
+
+        <div class="rol_usuario">
+  <select name="rol" id="rol">
+      <option value="Administrador">Administrador</option>
+      <option value="Recepcionista">Recepcionista</option>
+      <option value="Cliente">Cliente</option>
+  </select>
+</div>
+
+
+
+        <script src="/js/main.js"></script>       
+        
+    </body>
+</html>
