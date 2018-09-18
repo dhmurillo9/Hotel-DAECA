@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Palanquin",Roboto,sans-serif;
+}
+body{
+    background-color: #273c75;
+}
+.texto{
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.cajas{
+    width: 80% !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    border-bottom: none !important;
+    color: #fff;
+}
+input:focus{
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.div-cajas{
+    margin-top: 0;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    border: solid 1px #bdc3c7;
+    border-radius: 10px;
+    width: 29%;
+    height: 50px;
+    position: relative;
+}
+.iconos-form{
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid 1px #bdc3c7;
+    color: #fff;
+}
+.btn1{
+    margin-left:45%; 
+    margin-bottom: 1%;
+    border-right: solid 1px #bdc3c7;
+}
+.browser-default{
+    width: 29%;
+    border: solid 2px #bdc3c7;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    background-color: #273c75;
+    color: #fff;
+}
+
