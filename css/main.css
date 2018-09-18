@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
 *{
     margin: 0;
     padding: 0;
+   font-family: 'Palanquin', sans-serif;
 }
 header{
    
@@ -9,33 +11,89 @@ header{
     
 }
 .secNav,.secNav div nav,.secNav div nav{
-    background-color: #0F1D2E;
-   
+    background-color: #0F1D2E;  
+}
+header{
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+.ht1{
+    position: relative;
+    margin-top: -350px;
+    z-index: -1;
+}
+a{
+    font-weight: normal;
+}
+.secNav{
+    position: relative;
+    z-index: 2;
+    position: fixed;
+    width: 100%
 }
 
-
+.DAECA{
+    margin-top: 50px;
+    margin-right:50px;
+}
+.part1{
+    overflow: hidden;
+    width: 100%;
+    height: 400px;    
+}
+.part1a{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    height:400px;
+}
+.part1a a{
+    margin-top: 120px;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #0F1D2E;
+    border-radius: 100px;
+}
+.centrar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.im1{
+    position: relative;
+    z-index: -1;
+    margin-top: -750px;
+    transform: rotatey(540deg);
+    padding: 0 !important;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+h2{
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
 /*pc grande*/
 @media only screen and (min-width:1200px){
-    header{
+    .secNav div nav ul li a{
+        padding: 0 35px;
+        transition-delay: 0;
+        transition-duration: .3s;
+        transition-property: all;
+    }
+    .secNav div nav ul li a:hover{
+        background-color: white;
+        color: #0F1D2E;    
+    }
+    .separador{
+        position: relative;
         width: 100%;
-        height: 580px;
-        overflow: hidden;
-    }
-    .ht1{
-        position: relative;
-        margin-top: -240px;
-        z-index: -1;
-   
-      
-    }
-    .secNav{
-        position: relative;
-        z-index: 2;
-        position: fixed;
-        width: 100%
-    }
-    .sectNav{
-
+        height: 20px;
+        background-color: #0F1D2E;
     }
 }
 
@@ -44,80 +102,32 @@ header{
 
 /*pc pequeña*/
 @media only screen and (min-width:992px)and (max-width:1199px){
-
-    header{
+    .secNav div nav ul li a{
+        padding: 0 35px;
+        transition-delay: 0;
+        transition-duration: .3s;
+        transition-property: all;
+    }
+    .secNav div nav ul li a:hover{
+        background-color: white;
+        color: #0F1D2E;    
+    }
+    .separador{
+        position: relative;
         width: 100%;
-        height: 580px;
-        overflow: hidden;
+        height: 20px;
+        background-color: #0F1D2E;
     }
-    .ht1{
-        position: relative;
-        margin-top: -240px;
-        z-index: -1;
-   
-      
-    }
-    .secNav{
-        position: relative;
-        z-index: 2;
-        position: fixed;
-        width: 100%
-    }
-    .sectNav{
-
-    }
-
 
 }
 
 /*tablet*/
 @media only screen and (min-width:600px) and (max-width:992px){
 
-    header{
-        width: 100%;
-        height: 580px;
-        overflow: hidden;
-    }
-    .ht1{
-        position: relative;
-        margin-top: -240px;
-        z-index: -1;
    
-      
-    }
-    .secNav{
-        position: relative;
-        z-index: 2;
-        position: fixed;
-        width: 100%
-    }
-    .sectNav{
-
-    }
 }
 
 /*moviles*/
 @media only screen and (max-width:600px){
-    header{
-        width: 100%;
-        height: 580px;
-        overflow: hidden;
-    }
-    .ht1{
-        position: relative;
-        margin-top: -240px;
-        z-index: -1;
-   
-      
-    }
-    .secNav{
-        position: relative;
-        z-index: 2;
-        position: fixed;
-        width: 100%
-    }
-    .sectNav{
-
-    }
 
 }
