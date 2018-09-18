@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registro Administrador</title>
+    <title>Registro Recepcionista</title>
     <link rel="stylesheet" href="../css/esperanza.css">
     <link rel="stylesheet" href="../css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,10 +25,14 @@
     </script>
 </head>
 <body>   
-    <h1 class="texto">FORMULARIO DE REGISTRO ADMINISTRADOR</h1>
+    <h1 class="texto">FORMULARIO DE REGISTRO RECEPCIONISTA</h1>
 
         <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
             <div class="contenedor-inputs">
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">subtitles</i>
+                    <input class="cajas" type="text" id="cedula" name="cedula" placeholder="Cédula" required=""><br>
+                </div>
                 <div class="div-cajas">
                     <i class="material-icons iconos-form">account_circle</i>
                     <input class="cajas" type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre y Apellidos" required=""><br>
@@ -49,15 +53,14 @@
                     <i class="material-icons iconos-form">phone</i>
                     <input class="cajas" type="text" id="telefono" name="telefono" placeholder="Teléfono" required="">
                 </div>
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">home</i>
+                    <input class="cajas" type="text" id="direccion" name="direccion" placeholder="Dirección" required="">
+                </div>
             </div>
-            <div class="input-field col s12">
-                <select class="browser-default">
-                    <option class="a1" value="" disabled selected>Rol o Cargo</option>
-                    <option class="a1" value="1">Administrador</option>
-                    <option class="a1" value="2">Recepcionista</option>
-                    <option class="a1" value="3">Cliente</option>
-                </select>
-            </div>    
+            <select class="browser-default">
+                <option class="a1" value="3">Cliente</option>
+            </select>
                 <div class="btn1">
                     <button class="btn waves-effect" type="submit" name="action">Reservar</button>
                 
