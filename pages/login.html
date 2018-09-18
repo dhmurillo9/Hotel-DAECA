@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../js/materialize.js">
     <link rel="stylesheet" href="../css/materialize.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login</title>
 
     <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
     <script>
@@ -26,16 +27,48 @@
 </head>
 <body>
 
-    <h4>Registro de usuarios</h4>
-    <input id="email" type="email" placeholder="Ingrese email">
-    <input id="contrasena" type="password" placeholder="Ingrese contraseña">
-    <button onclick="registrar()">Enviar</button>
+    <div class="inputs">
+        <h4 class="texto">Registro de usuarios</h4>
+        <div class="caja">
+            <i class="material-icons iconos-form">email</i>
+            <input class="cajas2" id="email" type="email" name="correo" placeholder="Ingrese email" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">lock</i>
+            <input class="cajas2" id="contrasena" type="password" name="contraseña" placeholder="Ingrese contraseña" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">account_circle</i>
+            <input class="cajas2" id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese nombre y apellido" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">call</i>
+            <input class="cajas2" id="telefono" type="text" name="telefono" placeholder="Ingrese telefono" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">home</i>
+            <input class="cajas2" id="direccion" type="text" name="direccion" placeholder="Ingrese direccion" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">picture_in_picture</i>
+            <input class="cajas2" id="cedula" type="text" name="cedula" placeholder="Ingrese cedula" required="">
+        </div>
+        <button onclick="registrar()">Enviar</button>
+    </div>
 
-     <h4>Ingreso de usuarios</h4>
-    <input id="email2" type="email" placeholder="Ingrese email">
-    <input id="contrasena2" type="password" placeholder="Ingrese contraseña">
-    <button onclick="ingreso()">Acceder</button>
-
+    <div class="inputs">
+        <h4 class="texto">Ingreso de usuarios</h4>
+        <div class="caja">
+            <i class="material-icons iconos-form">email</i>
+            <input class="cajas2" id="email2" type="email" placeholder="Ingrese email" required="">
+        </div>
+        <div class="caja">
+            <i class="material-icons iconos-form">lock</i>
+            <input class="cajas2" id="contrasena2" type="password" placeholder="Ingrese contraseña" required="">
+        </div>
+        <button onclick="ingreso()">Acceder</button>
+    </div>
+        
     <div id="contenido">
        
     </div>
