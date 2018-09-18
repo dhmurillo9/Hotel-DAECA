@@ -1,0 +1,76 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro Administrador</title>
+    <link rel="stylesheet" href="../css/esperanza.css">
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+   
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+    </script> 
+    <script>
+      var config = {
+        apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
+        authDomain: "hotel-daeca.firebaseapp.com",
+        databaseURL: "https://hotel-daeca.firebaseio.com",
+        projectId: "hotel-daeca",
+        storageBucket: "hotel-daeca.appspot.com",
+        messagingSenderId: "829762605681"
+      };
+      firebase.initializeApp(config);
+    </script>
+</head>
+<body>   
+    <h1 class="texto">FORMULARIO DE REGISTRO ADMINISTRADOR</h1>
+
+        <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
+            <div class="contenedor-inputs">
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">account_circle</i>
+                    <input class="cajas" type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre y Apellidos" required=""><br>
+                </div>
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">email</i>
+                    <input class="cajas" type="email" id="correo" name="correo" placeholder="Correo Electronico" required="">
+                </div>
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">account_circle</i>
+                    <input class="cajas" type="text" id="usuario" name="usuario" placeholder="Nombre de Usuario" required="">
+                </div>
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">lock</i>
+                    <input class="cajas" type="password" id="clave" name="clave" placeholder="Contraseña" required="">
+                </div>
+                <div class="div-cajas">
+                    <i class="material-icons iconos-form">phone</i>
+                    <input class="cajas" type="text" id="telefono" name="telefono" placeholder="Teléfono" required="">
+                </div>
+            </div>
+             <select class="browser-default">
+                <option value="" disabled selected>Rol o Cargo</option>
+                <option value="1">Administrador</option>
+                <option value="2">Recepcionista</option>
+                <option value="3">Cliente</option>
+            </select>
+                
+                <div class="btn1">
+                    <button class="btn waves-effect waves-teal" type="submit" name="action">Enviar</button>
+                
+                </div>
+        </form>
+
+
+ 
+
+   
+
+
+
+    <script src="/js/main.js"></script>       
+    
+
+</body>
+</html>
