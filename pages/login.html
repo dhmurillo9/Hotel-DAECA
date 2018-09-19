@@ -29,6 +29,10 @@
     <div class="inputs">
         <h4 class="texto">Registro de usuarios</h4>
         <div class="caja">
+            <i class="material-icons iconos-form">picture_in_picture</i>
+            <input class="cajas2" id="cedula" type="text" name="cedula" placeholder="Ingrese cedula" required="">
+        </div>
+        <div class="caja">
             <i class="material-icons iconos-form">email</i>
             <input class="cajas2" id="email" type="email" name="correo" placeholder="Ingrese email" required="">
         </div>
@@ -48,12 +52,9 @@
             <i class="material-icons iconos-form">home</i>
             <input class="cajas2" id="direccion" type="text" name="direccion" placeholder="Ingrese direccion" required="">
         </div>
-        <div class="caja">
-            <i class="material-icons iconos-form">picture_in_picture</i>
-            <input class="cajas2" id="cedula" type="text" name="cedula" placeholder="Ingrese cedula" required="">
-        </div>
-        <button onclick="registrar()">Enviar</button>
-    </div>
+    </div>   
+        <button  class="btn waves-effect" onclick="registrar()">Guardar</button>
+   
 
     <div class="inputs">
         <h4 class="texto">Ingreso de usuarios</h4>
@@ -65,7 +66,7 @@
             <i class="material-icons iconos-form">lock</i>
             <input class="cajas2" id="contrasena2" type="password" placeholder="Ingrese contraseña" required="">
         </div>
-        <button onclick="ingreso()">Acceder</button>
+        <button class="btn waves-effect" onclick="ingreso()">Acceder</button>
     </div>
         
     <div id="contenido">
