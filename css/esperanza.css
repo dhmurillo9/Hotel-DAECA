@@ -45,18 +45,38 @@ input:focus{
     border-right: solid 1px #bdc3c7;
     color: #fff;
 }
-.btn1{
-    margin-left:45%; 
+.btn1 .waves-effect{
+    width: 100px;
+    margin-left:36%; 
     margin-bottom: 1%;
     border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+    float: left;
+}
+.btn2 .waves-effect{
+    width: 100px;
+    margin-left: 1%;
+    border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+}
+.btn3 .waves-effect{
+    width: 100px;
+    margin-top: -35px;
+    margin-left: 10%;
+    border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+    float: left;
 }
 .browser-default{
     width: 29%;
     border: solid 2px #bdc3c7;
     border-radius: 10px;
     margin-left: 35%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     background-color: #273c75;
     color: #fff;
+}
+.a1{
+    border-radius: 50%;
 }
 

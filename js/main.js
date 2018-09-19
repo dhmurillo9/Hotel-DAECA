@@ -11,8 +11,7 @@ function registrar(){
       alert("El campo nombre esta vacío");
     }
     
-  
-  }
+
     
     firebase.auth().createUserWithEmailAndPassword(nombre, apellidos, correo, clave, telefono,expresion)
     .catch(function(error) {
@@ -23,7 +22,10 @@ function registrar(){
       console.log(errorMessage);
 
       // ...
-    });
+    }
+  });
+
+
     var instanceR = M.Dropdown.getInstance(elemR);
 
 
