@@ -1,3 +1,4 @@
+
 function registrar(){
     var nombre, correo, usuario, clave, telefono;
     nombre = document.getElementById('nombre').value;

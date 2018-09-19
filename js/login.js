@@ -1,4 +1,18 @@
+var config = {
+    apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
+    authDomain: "hotel-daeca.firebaseapp.com",
+    databaseURL: "https://hotel-daeca.firebaseio.com",
+    projectId: "hotel-daeca",
+    storageBucket: "hotel-daeca.appspot.com",
+    messagingSenderId: "829762605681"
+  };
+  firebase.initializeApp(config);
+  
+  const $btnSaveRegister = document.querySelector('#save-register')
+   $btnSaveRegister.addEventListener('click', sun())
+  
 function registrar(){
+   
     var email = document.getElementById('email').value;
     var contrasena = document.getElementById('contrasena').value;
 
