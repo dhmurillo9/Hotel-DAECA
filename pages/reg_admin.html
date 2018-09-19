@@ -6,23 +6,20 @@
     <link rel="stylesheet" href="../css/esperanza.css">
     <link rel="stylesheet" href="../css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
-    </script> 
+    
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
     <script>
-      var config = {
-        apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
-        authDomain: "hotel-daeca.firebaseapp.com",
-        databaseURL: "https://hotel-daeca.firebaseio.com",
-        projectId: "hotel-daeca",
-        storageBucket: "hotel-daeca.appspot.com",
-        messagingSenderId: "829762605681"
-      };
-      firebase.initializeApp(config);
-    </script>
+        var config = {
+          apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
+          authDomain: "hotel-daeca.firebaseapp.com",
+          databaseURL: "https://hotel-daeca.firebaseio.com",
+          projectId: "hotel-daeca",
+          storageBucket: "hotel-daeca.appspot.com",
+          messagingSenderId: "829762605681"
+        };
+        firebase.initializeApp(config);
+      </script>
 </head>
 <body>   
     <h1 class="texto">FORMULARIO DE REGISTRO ADMINISTRADOR</h1>
@@ -35,7 +32,7 @@
                 </div>
                 <div class="div-cajas">
                     <i class="material-icons iconos-form">email</i>
-                    <input class="cajas" type="email" id="correo" name="correo" placeholder="Correo Electronico" required="">
+                    <input class="cajas" type="email" id="email" name="email" placeholder="Correo Electronico" required="">
                 </div>
                 <div class="div-cajas">
                     <i class="material-icons iconos-form">account_circle</i>
