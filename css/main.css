@@ -4,12 +4,56 @@
     padding: 0;
    font-family: 'Palanquin', sans-serif;
 }
-header{
-   
+.fondo{
+    background-color: #273c75;
 }
-.secNav{
-    
+.imglogin{
+    position: absolute;
 }
+.texto{
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.iconos-form{
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid 1px #bdc3c7;
+    color: #fff;
+}
+
+.cajas2{
+    width: 80% !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    border-bottom: none !important;
+    color: #fff;
+}
+input:focus{
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.caja{
+    margin-top: 0;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    border: solid 1px #bdc3c7;
+    border-radius: 10px;
+    width: 29%;
+    height: 50px;
+    position: relative;
+}
+.btn{
+  margin-left:45%;
+  }
 .secNav,.secNav div nav,.secNav div nav{
     background-color: #0F1D2E;  
 }
@@ -83,9 +127,79 @@ h2{
     float: left;
 }
 .logo-DAECA{
+    height: 64px;
+    width: 189px;
     position: absolute;
-    width: 158px; 
 }
+
+.cajas{
+    width: 80% !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    border-bottom: none !important;
+    color: #fff;
+}
+input:focus{
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.div-cajas{
+    margin-top: 0;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    border: solid 1px #bdc3c7;
+    border-radius: 10px;
+    width: 29%;
+    height: 50px;
+    position: relative;
+}
+.iconos-form{
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid 1px #bdc3c7;
+    color: #fff;
+}
+.btn1 .waves-effect{
+    width: 100px;
+    margin-left:36%; 
+    margin-bottom: 1%;
+    border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+    float: left;
+}
+.btn2 .waves-effect{
+    width: 100px;
+    margin-left: 1%;
+    border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+}
+.btn3 .waves-effect{
+    width: 100px;
+    margin-top: -35px;
+    margin-left: 10%;
+    border-right: solid 1px #bdc3c7;
+    border-radius: 10px;
+    float: left;
+}
+.browser-default{
+    width: 29%;
+    border: solid 2px #bdc3c7;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    background-color: #273c75;
+    color: #fff;
+}
+.a1{
+    border-radius: 50%;
+}
+
+
 
 
 
