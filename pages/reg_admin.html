@@ -10,7 +10,28 @@
 
     
     </head>
-    <body class="fondo">   
+    <body class="fondo">
+        <header>
+            <section class="secNav">
+                <center>
+                    <img  class="logo-DAECA" src="../assets/logo-DAECA.png" alt="">
+                </center>
+                <div class=" container">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="reservas.html">Reservas</a></li>
+                            <li><a href="">Servicios</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                        <ul class="right login">
+                            <li><a  href="login.html">Iniciar Sesión</a></li>
+                            <li><a  href="reg_admin.html">Registrarse</a></li>
+                        </ul>
+                    </nav>
+                </div>        
+            </section>
+        </header>   
         <h1 class="texto">FORMULARIO DE REGISTRO ADMINISTRADOR</h1>
 
             <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
@@ -44,18 +65,12 @@
                         <option class="a1" value="3">Cliente</option>
                     </select>
                 </div>    
-                    <div class="btn1">
-                        <button class="btn waves-effect" type="submit" name="action">Reservar</button>
-                    
-                    </div>
-                    <div class="btn2">
-                        <button class="btn waves-effect" type="submit" name="action">Editar</button>
-                    
-                    </div>
-                    <div class="btn3">
-                        <button class="btn waves-effect" type="submit" name="action">Guardar</button>
-                    
-                    </div>
+                <center>
+                    <button class="btn waves-effect" type="submit" name="action">Reservar</button>
+                    <button class="btn waves-effect" type="submit" name="action">Editar</button>
+                    <button class="btn waves-effect" type="submit" name="action">Guardar</button>
+                </center>
+                        
             </form>
 
 
