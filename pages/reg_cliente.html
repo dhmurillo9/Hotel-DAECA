@@ -33,43 +33,42 @@
                 </div>        
             </section>
         </header> 
-        <div class="inputs">
+        <section class="inputs" id="registro">
             <h4 class="texto">Registro de Clientes</h4>
             <div class="caja">
                 <i class="material-icons iconos-form">picture_in_picture</i>
-                <input class="cajas2" id="cedula" type="text" name="cedula" placeholder="Ingrese cedula" required="">
+                <input type="number" name="cedula" placeholder="Ingrese cedula" class="cajas2" required="">
             </div>
             <div class="caja">
                 <i class="material-icons iconos-form">email</i>
-                <input class="cajas2" id="email" type="email" name="correo" placeholder="Ingrese email" required="">
+                <input type="email" name="correo" placeholder="Ingrese email" class="cajas2" required="">
             </div>
             <div class="caja">
                 <i class="material-icons iconos-form">lock</i>
-                <input class="cajas2" id="contrasena" type="password" name="contraseña" placeholder="Ingrese contraseña" required="">
+                <input type="password" name="contrasena" placeholder="Ingrese contraseña" class="cajas2" required="">
             </div>
             <div class="caja">
                 <i class="material-icons iconos-form">account_circle</i>
-                <input class="cajas2" id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese nombre y apellido" required="">
+                <input type="text" name="nombreyapellido" placeholder="Ingrese nombre y apellido" class="cajas2" required="">
             </div>
             <div class="caja">
                 <i class="material-icons iconos-form">call</i>
-                <input class="cajas2" id="telefono" type="text" name="telefono" placeholder="Ingrese telefono" required="">
+                <input type="number" name="telefono" placeholder="Ingrese telefono" class="cajas2" required="">
             </div>
             <div class="caja">
                 <i class="material-icons iconos-form">home</i>
-                <input class="cajas2" id="direccion" type="text" name="direccion" placeholder="Ingrese direccion" required="">
+                <input type="text" name="direccion" placeholder="Ingrese direccion" class="cajas2" required="">
             </div>
-        </div>
-        <center>
-                <button  class="btn waves-effect" id="save-register">Guardar</button>
-        </center>
+            <center>
+                <input type="submit" value="Guardar"  class="btn waves-effect">
+            </center>
+        </section>
         
 
-
-            
-        <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
-        <script src="/js/materialize.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+        <script src="../js/login.js"></script>
+        <script src="../js/materialize.js"></script>
+       
 
     </body>
 </html>
