@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/materialize.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <title>Registro Recepcionista</title>
- 
+        <title>Registro</title>
+
+    
     </head>
     <body class="fondo">
         <header>
@@ -24,19 +25,20 @@
                             <li><a href=""></a></li>
                         </ul>
                         <ul class="right login">
-                            <li><a class="activo" href="#">Iniciar Sesión</a></li>
-                            <li><a  href="reg_admin.html">Registrarse</a></li>
+                            <li><a  href="login.html">Iniciar Sesión</a></li>
+                            <li><a  href="registro.html">Registrarse</a></li>
                         </ul>
                     </nav>
                 </div>        
             </section>
         </header>   
-        <h1 class="texto">FORMULARIO DE REGISTRO RECEPCIONISTA</h1>
+        <h1 class="texto">FORMULARIO DE REGISTRO</h1>
+
             <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
                 <div class="contenedor-inputs">
-                    <div class="div-cajas">
-                        <i class="material-icons iconos-form">subtitles</i>
-                        <input class="cajas" type="text" id="cedula" name="cedula" placeholder="Cédula" required=""><br>
+                    <div class="caja">
+                        <i class="material-icons iconos-form">picture_in_picture</i>
+                        <input type="number" name="cedula" placeholder="Ingrese cedula" class="cajas2" required="">
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">account_circle</i>
@@ -44,11 +46,7 @@
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">email</i>
-                        <input class="cajas" type="email" id="correo" name="correo" placeholder="Correo Electronico" required="">
-                    </div>
-                    <div class="div-cajas">
-                        <i class="material-icons iconos-form">account_circle</i>
-                        <input class="cajas" type="text" id="usuario" name="usuario" placeholder="Nombre de Usuario" required="">
+                        <input class="cajas" type="email" id="email" name="email" placeholder="Correo Electronico" required="">
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">lock</i>
@@ -58,26 +56,21 @@
                         <i class="material-icons iconos-form">phone</i>
                         <input class="cajas" type="text" id="telefono" name="telefono" placeholder="Teléfono" required="">
                     </div>
-                    <div class="div-cajas">
-                        <i class="material-icons iconos-form">home</i>
-                        <input class="cajas" type="text" id="direccion" name="direccion" placeholder="Dirección" required="">
-                    </div>
                 </div>
-                <select class="browser-default">
-                    <option class="a1" value="3">Cliente</option>
-                </select>
-                    <div class="btn1">
-                        <button class="btn waves-effect" type="submit" name="action">Reservar</button>
-                    
-                    </div>
-                    <div class="btn2">
-                        <button class="btn waves-effect" type="submit" name="action">Editar</button>
-                    
-                    </div>
-                    <div class="btn3">
-                        <button class="btn waves-effect" type="submit" name="action">Guardar</button>
-                    
-                    </div>
+                <div class="input-field col s12">
+                    <select class="browser-default">
+                        <option class="a1" value="" disabled selected>Rol o Cargo</option>
+                        <option class="a1" value="1">Administrador</option>
+                        <option class="a1" value="2">Recepcionista</option>
+                        <option class="a1" value="3">Cliente</option>
+                    </select>
+                </div>    
+                <center>
+                    <button class="btn waves-effect" type="submit" name="action">Reservar</button>
+                    <button class="btn waves-effect" type="submit" name="action">Editar</button>
+                    <button class="btn waves-effect" type="submit" name="action">Guardar</button>
+                </center>
+                        
             </form>
 
 
@@ -85,10 +78,10 @@
 
     
 
-
-        <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
-        <script src="/js/materialize.js"></script>
-        <script src="/js/main.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+            <script src="/js/materialize.js"></script>
+            <script src="/js/main.js"></script>
+        
 
     </body>
 </html>
