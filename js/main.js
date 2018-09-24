@@ -119,3 +119,10 @@ function registrar(){
   if (nombre ===){
     alert("El campo nombre esta vacío");
   }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, options);
+  });
+
