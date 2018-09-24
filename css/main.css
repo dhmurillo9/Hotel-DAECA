@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin');
+
 *{
     margin: 0;
     padding: 0;
-   font-family: 'Palanquin', sans-serif;
+    font-family: 'Palanquin', sans-serif;
 }
 .fondo{
     background-color: #273c75;
@@ -11,6 +12,13 @@
     width: 9%;
     margin-left: 45%;
     margin-bottom: 25px;
+}
+.completo{
+    width: 100%;
+    height: 100%;
+}
+.sinPadding{
+    padding: 0 !important;
 }
 .texto{
     margin: 100px 0 50px 0;
@@ -70,12 +78,7 @@ header{
     width: 100%;
     overflow: hidden;
 }
-.ht1{
-    position: relative;
-    margin-top: -460px;
-    z-index: -1;
-    margin-bottom: -10px;
-}
+
 a{
     font-weight: normal;
 }
@@ -85,31 +88,93 @@ a{
     position: fixed;
     width: 100%
 }
-
-.DAECA{
-    margin-top: 50px;
-    margin-right:50px;
-}
 .part1{
-    overflow: hidden;
     width: 100%;
-    height: 400px;    
+    height: 700px;
+    overflow: hidden;
+}
+.ht1{
+    position: relative;
+    margin-top: -700px;
+    z-index: -1;
+    margin-bottom: -10px;
 }
 .part1a{
     position: relative;
     z-index: 1;
-    background-color: white;
-    height:400px;
 }
-.part1a a{
-    margin-top: 120px;
-    display: inline-block;
-    padding: 10px 15px;
-    border: 1px solid #0F1D2E;
-    border-radius: 100px;
+.DAECA1{
+    margin-top: 50px;
+    margin-right:50px;
+}
+.DAECA1 img{
+    width: 249px;
+    margin-top: 35px;   
+}
+.DAECA2{
+    margin-top:450px;
+    margin-left: 20px;
+}
+.DAECA2 h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 500
+}
+.DAECA2 h3{
+    font-size: 30px;
+    color: white;
+}
 
-    
+.part2{
+    background-color: #0F1D2E;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 1130px;
+    z-index: 1;
 }
+.cuadro{
+    width: 700px;
+    height: 700px;
+    background-color: #0F1D2E;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 14.5%;
+}
+.cuadro2{
+    width: 675px;
+    height: 675px;
+    background-color: white;
+    position: absolute;
+    margin: 12px;
+    overflow: hidden;
+}
+.cuadro2 img{
+    margin-left: -530px;
+    transform: rotate(-45deg);
+    max-width: 215%;
+}
+.part2a{
+    position: relative;
+    width: 49.5%;
+    height: 560px;
+    overflow: hidden;
+}
+ .sep{
+    margin-top: 20px;
+}
+.textPart2{
+    position: absolute;
+    z-index: 1;
+    font-size: 35px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+
+
 .centrar{
     display: block;
     margin-left: auto;
@@ -227,7 +292,7 @@ input:focus{
     .separador{
         position: relative;
         width: 100%;
-        height: 20px;
+        height: 40px;
         background-color: #0F1D2E;
     }
 }
