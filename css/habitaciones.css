@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Palanquin', sans-serif;
+}
+.fondo{
+    background-color: #273c75;
+}
+.container.section .slider .slides{
+    position: relative;
+   
+}
+
+
+.slider .slides li img {
+
+    position: relative;
+    margin-top: 48px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.info p{
+    text-align: justify;
+}
+
+.re_info{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-left: 20px;
+    padding: 3px;
+
+}
+.booking-form .input-wrap input {
+    margin: 0;
+    min-width: 15em;
+    font-size: .875em;
+    padding: .75em;
+    letter-spacing: .142em;
+}
