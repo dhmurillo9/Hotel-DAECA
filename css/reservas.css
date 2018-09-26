@@ -6,14 +6,11 @@
    font-family: 'Palanquin', sans-serif;
 }
 
-.slider .slides ul{
-    opacity: 1;
-    z-index: 1;
+.container.section .slider .slides{
+    position: relative;
     width: 100%;
-    height: 500px;
-    
-    
 }
+
 .habitaciones{
     background-color: #0F1D2E;
     width: 100%;
@@ -30,9 +27,11 @@
 .habitaciones p{
     font-family: 'Palanquin', sans-serif;
     color: rgba(255, 255, 255, 0.726);
-    font-size: 20px;
-    text-align: center;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 50px;
 }
+
 .habitaciones .icons{
     width: 100%;
     height: 300px;
@@ -68,29 +67,106 @@
     height: 300px;
     display: inline-block;
     border: 3px  solid white;
-    margin: 0px 6px 0px 74px
+    margin: 0px 6px 0px 20px
 }
+.Habitaciones2 .container .room2{
+    width: 87%;
+    height: 300px;
+    display: inline-block;
+    border: 3px  solid white;
+    margin: 0px 20px 0px 6px
+}
+
 .Habitaciones2 .container .article1{
     width: 100%;
     height: auto;
     display: inline-block;
 }
-.Habitaciones2 .container .article1 .tittle1{
+ .article1 .t1{
     font-family: 'Lobster', cursive;
     color: rgb(161, 119, 10);
     font-size: 30px;
-    margin-left: 80px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
-.Habitaciones2 .container .article1 .tittle2{
-    font-family: 'Lobster', cursive;
-    color: rgb(161, 119, 10);
-    font-size: 30px;
-    margin-right: 322px;
-}
-.Habitaciones2 .container .article1 .info1{
+ .article1  .t2{
     font-family: 'Palanquin', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.664);
     font-size: 18px;
-    text-align: left;
-    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 45px;
+    font-weight: bold;
 }
+.article1 .t3{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+    margin-right: 20px;
+    
+}
+.article1 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+}
+.article1 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-right: 20px;
+    padding: 3px;
+}
+.Habitaciones2 .container .article2{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+ .article2 .ti1{
+    font-family: 'Lobster', cursive;
+    color: rgb(161, 119, 10);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+ .article2  .ti2{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.article2 .ti3{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+    margin-left: 20px;
+    
+}
+.article2 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+}
+.article2 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-left: 20px;
+    padding: 3px;
+}
+

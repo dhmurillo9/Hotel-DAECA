@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../css/materialize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/reservas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Reservas</title>
 </head>
 
@@ -40,38 +42,35 @@
             </nav>
         </div>
     </section>
-    <section class="slider">
+    <!-- slider -->
+    <div class="container section">
         <div class="row">
-            <div class="container">
-                <div class=" col">
+            <div class="col s12 m12 l12">
+                <div class="slider">
                     <ul class="slides">
                         <li>
-                            <img src="../assets/habitaciones/rest04.jpg">
-                            <!-- random image -->
+                            <img src="../assets/habitaciones/slider1.jpg"> <!-- random image -->
                             <div class="caption center-align">
                                 <h3>This is our big Tagline!</h3>
                                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/habitaciones/rest01.jpg">
-                            <!-- random image -->
+                            <img src="../assets/habitaciones/slider2.jpeg"> <!-- random image -->
                             <div class="caption left-align">
                                 <h3>Left Aligned Caption</h3>
                                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/habitaciones/rest02.jpg">
-                            <!-- random image -->
+                            <img src="../assets/habitaciones/slider3.jpg"> <!-- random image -->
                             <div class="caption right-align">
                                 <h3>Right Aligned Caption</h3>
                                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/habitaciones/rest03.jpg">
-                            <!-- random image -->
+                            <img src="../assets/piscina.jpg"> <!-- random image -->
                             <div class="caption center-align">
                                 <h3>This is our big Tagline!</h3>
                                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -81,30 +80,35 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- habitaciones con informacion -->
+
     <section class="habitaciones">
         <div class="row">
             <div class="container">
                 <div class="col s12 m12">
                     <h1>Lujosas Habitaciones & Suites</h1>
                     <p>
-                        Hospédese en el suntuoso de lujo en Hotel DAECA. Cada habitación es una fusión única de estilo contemporáneo, que ofrece
-                        lo último en comodidad y relajación. No hay dos habitaciones iguales, con grandes camas de lujo cubiertas
-                        con sábanas frescas y espaciosas áreas de estar para relajarse. Hotel DAECA lo invita a seleccionar
+                        Hospédese en el suntuoso de lujo en Hotel DAECA. Cada habitación es una fusión única de estilo
+                        contemporáneo, que ofrece
+                        lo último en comodidad y relajación. No hay dos habitaciones iguales, con grandes camas de lujo
+                        cubiertas
+                        con sábanas frescas y espaciosas áreas de estar para relajarse. Hotel DAECA lo invita a
+                        seleccionar
                         una habitación o suite tan exclusiva como su visita a San Andrés islas.
                     </p>
                     <div class="icons">
                         <article class="col s2 m2">
                             <img src="../assets/iconos/strongbox.png" alt="">
-                            <h3>Safe Deposit Box</h3>
+                            <h3>Caja Fuerte</h3>
                         </article>
                         <article class="col s2 m2">
                             <img src="../assets/iconos/air-conditioner.png" alt="">
-                            <h3>Air Conditioner</h3>
+                            <h3>Aire acondicionado</h3>
                         </article>
                         <article class="col s2 m2">
                             <img src="../assets/iconos/sunset.png" alt="">
-                            <h3>Wake up Service</h3>
+                            <h3>Servicio de despertador</h3>
                         </article>
                         <article class="col s2 m2">
                             <img src="../assets/iconos/minibar.png" alt="">
@@ -112,17 +116,18 @@
                         </article>
                         <article class="col s2 m2">
                             <img src="../assets/iconos/wifi.png" alt="">
-                            <h3>Free Wi-Fi</h3>
+                            <h3>Wi-Fi gratis</h3>
                         </article>
                         <article class="col s2 m2">
                             <img src="../assets/iconos/call.png" alt="">
-                            <h3>Telephone</h3>
+                            <h3>Teléfono</h3>
                         </article>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--habitaciones-->
     <section class="Habitaciones2">
         <div class="row">
             <div class="container">
@@ -130,69 +135,114 @@
                     <a href="#">
                         <img class="room" src="../assets/habitaciones/03.jpg" alt="">
                     </a>
-                    <article class="article1">
-                        <h3 class="tittle1">Habitación Semi-Doble</h3>
-                        <h2 class="info1">Quedate desde $ 255.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | Cama Semi-doble</h2>
-                    </article>
                 </div>
                 <div class="col m6 s12 right-align">
-                    <a href="#">
-                        <img class="room" src="../assets/habitaciones/15.jpg" alt="">
-                    </a>
-                    <article class="article1">
-                        <h3 class="tittle2">Habitación de Lujo</h3>
-                        <h2 class="info1">Quedate desde $ 655.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | Cama doble</h2>
-                    </article>
+                    <div class="article1">
+                        <h2 class="t1">Habitación Doble</h2>
+                        <h3 class="t2">Quedate desde $ 255.999 por noche</h3>
+                        <h4 class="t3"><b>Contiene</b> 36 M2 | <b>Doble</b> </h4>
+                        <p>
+                            Nuestras habitaciones están bien equipadas y son una base
+                            perfecta para su bienestar Ofrecemos una
+                            variedad de interiores con estilo, y una selección de auténticos muebles comodos y
+                            modernos.
+                        </p>
+                        <a href="#">Reservar</a>
+                        <a href="#">Mas Información</a>
+                    </div>
+
                 </div>
+
+                <!--segundo-->
+                <<div class="col m6 s12 left-align">
+                    <div class="article2">
+                        <h2 class="ti1">Habitación de Lujo</h2>
+                        <h3 class="ti2">Quedate desde $ 655.999 por noche </h3>
+                        <h4 class="ti3"><b>Contiene </b>56 M2 | <b>Cama doble</b></h4>
+                        <p>
+                            Nuestras habitaciones están bien equipadas y son una base
+                            perfecta para su bienestar Ofrecemos una
+                            variedad de interiores con estilo, y una selección de auténticos muebles comodos y
+                            modernos.
+                        </p>
+                        <a href="#">Reservar</a>
+                        <a href="#">Mas Información</a>
+                    </div>
+            </div>
+            <div class="col m6 s12 right-align">
+                <a href="#">
+                    <img class="room2" src="../assets/habitaciones/15.jpg" alt="">
+                </a>
+
+            </div>
+        
+
+
+            <!--TERCERO-->
+
+
+
+            < <div class="container">
                 <div class="col m6 s12 left-align">
-                    <a>
+                    <a href="#">
                         <img class="room" src="../assets/habitaciones/13.jpg" alt="">
                     </a>
-                    <article class="article1">
-                        <h3 class="tittle1">Habitación Doble</h3>
-                        <h2 class="info1">Quedate desde $ 455.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | 2 Camas doble</h2>
-                    </article>
                 </div>
                 <div class="col m6 s12 right-align">
-                    <a>
-                        <img class="room" src="../assets/habitaciones/21.jpg" alt="">
-                    </a>
-                    <article class="article1">
-                        <h3 class="tittle2">Habitación Sencilla</h3>
-                        <h2 class="info1">Quedate desde $ 155.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | Cama Sencilla</h2>
-                    </article>
+                    <div class="article1">
+                        <h2 class="t1">Habitación Familiar</h2>
+                        <h3 class="t2">Quedate desde $ 455.999 por noche </h3>
+                        <h4 class="t3"><b>Contiene</b> 36 M2 | <b>2 Camas doble</b></h4>
+                        <p>
+                            Nuestras habitaciones están bien equipadas y son una base
+                            perfecta para su bienestar Ofrecemos una
+                            variedad de interiores con estilo, y una selección de auténticos muebles comodos y
+                            modernos.
+                        </p>
+                        <a href="#">Reservar</a>
+                        <a href="#">Mas Información</a>
+
+                    </div>
+
                 </div>
-                <div class="col m6 s12 left-align">
-                    <a>
-                        <img class="room" src="../assets/habitaciones/09.jpg" alt="">
-                    </a>
-                    <article class="article1">
-                        <h3 class="tittle1">Habitación de Lujo</h3>
-                        <h2 class="info1">Quedate desde $ 455.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | 2 Camas doble</h2>
-                    </article>
-                </div>
-                <div class="col m6 s12 right-align">
-                    <a>
-                        <img class="room" src="../assets/habitaciones/24.jpg" alt="">
-                    </a>
-                    <article class="article1">
-                        <h3 class="tittle2">Habitación Sencilla</h3>
-                        <h2 class="info1">Quedate desde $ 155.999 por noche </h2>
-                        <h2 class="info1">Contiene 36 M2 | Cama Sencilla</h2>
-                    </article>
-                </div>
-            </div>
+
+                <!--CUARTO-->
+
+                <<div class="col m6 s12 left-align">
+                    <div class="article2" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h2 class="ti1">Habitación Sencilla</h2>
+                        <h3 class="ti2">Quedate desde $ 155.999 por noche </h3>
+                        <h4 class="ti3"><b>Contiene</b> 36 M2 | <b>Cama Sencilla</b></h4>
+
+                        <p>
+                            Nuestras habitaciones están bien equipadas y son una base
+                            perfecta para su bienestar Ofrecemos una
+                            variedad de interiores con estilo, y una selección de auténticos muebles comodos y
+                            modernos.
+                        </p>
+                        <a href="#">Reservar</a>
+                        <a href="#">Mas Información</a>
+                    </div>
+        </div>
+        <div class="col m6 s12 right-align">
+            <a href="#">
+                <img class="room2" src="../assets/habitaciones/21.jpg" alt="">
+            </a>
+
+        </div>
         </div>
     </section>
 
+
+
     <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/main.js"></script>
+
 
 
 </body>
