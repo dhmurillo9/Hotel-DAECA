@@ -18,17 +18,14 @@ h2{
     font-size: 30px;
     text-align: center;
 }
-.cuadro{
-    display: block;
-    margin-top: -100px;
-    background-color: white;
-    border: 1px solid black;
-    width: 50px;
-    position: relative;
-    transform: rotateZ(90deg)
+.redSocial{
+    background-color:#0F1E2E;
+    height: 200px;
 }
- .cuadro img{
-     ;
+ .R1{
+    width: 15%;
+    height: auto;
+    padding-bottom: 15%;
+    background-color: #fff;
  }
-
 
