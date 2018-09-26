@@ -10,7 +10,7 @@
     firebase.initializeApp(config);
     
     const $btnSaveRegister = document.querySelector('#save-register')
-     $btnSaveRegister.addEventListener('click', sun())
+    if($btnSaveRegister) $btnSaveRegister.addEventListener('click', sun())
     
   function registrar(){
      
@@ -116,13 +116,21 @@ function registrar(){
   clave = document.getElementById('clave').value;
   telefono = document.getElementById('telefono').value;
 
-  if (nombre ===){
+  if (nombre === ''){
     alert("El campo nombre esta vacío");
   }
 }
+AOS.init();
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, options);
-  });
+  //slider de página de reservas
+  document.addEventListener('DOMContentLoaded', function() {
+    var elemslider = document.querySelectorAll('.slider');
+    var instanceslider = M.Slider.init(elemslider,{
+        indicators:false,
+        height:500,
+        interval:1000
+    });
+    
 
+
+  }) 

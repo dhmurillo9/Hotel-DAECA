@@ -104,6 +104,7 @@
     font-size: 14px;
     margin-right: 20px;
     
+
 }
 .article1 p{
     font-family: 'Palanquin', sans-serif;
@@ -128,6 +129,32 @@
     height: auto;
     display: inline-block;
 }
+
+}
+.article1 p{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+}
+.article1 a{
+    width: 127px;
+    height: 33px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-right: 20px;
+    padding: 3px;
+}
+.Habitaciones2 .container .article2{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
  .article2 .ti1{
     font-family: 'Lobster', cursive;
     color: rgb(161, 119, 10);
@@ -168,4 +195,9 @@
     color: rgba(255, 255, 255, 0.664);
     margin-left: 20px;
     padding: 3px;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> da52e5deed496b2a842b69a8b4b55be397a7f545
