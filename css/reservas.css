@@ -36,7 +36,7 @@
     width: 100%;
     height: 300px;
     display: inline-block;
-    margin: 100px -48px 0px 14px;
+    margin: 100px -48px 0px 30px;
 }
 .habitaciones img{
     width: 40%;
@@ -57,24 +57,45 @@
     margin-top: -21px;
     position: relative
 }
-.Habitaciones2 .container{
+.Habitaciones2 .container:first-child{
     width: 100%;
     height: auto;
     display: inline-block;
 }
-.Habitaciones2 .container .room{
-    width: 87%;
-    height: 300px;
+.Habitaciones2 .container:nth-child(2){
+    width: 100%;
+    height: auto;
     display: inline-block;
-    border: 3px  solid white;
-    margin: 0px 6px 0px 20px
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
 }
-.Habitaciones2 .container .room2{
+.Habitaciones2 .container:nth-child(3){
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+}
+.Habitaciones2 .container:nth-child(4){
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+}
+.Habitaciones2 .container:first-child .room, .container:nth-child(3) .room{
     width: 87%;
     height: 300px;
     display: inline-block;
     border: 3px  solid white;
-    margin: 0px 20px 0px 6px
+    margin: 40px 6px 0px 20px;
+}
+.Habitaciones2 .container:nth-child(2) .room2, .container:nth-child(4) .room2{
+    width: 87%;
+    height: 300px;
+    display: inline-block;
+    border: 3px  solid white;
+    margin: 20px 20px 0px 6px;
 }
 
 .Habitaciones2 .container .article1{
@@ -82,13 +103,14 @@
     height: auto;
     display: inline-block;
 }
+
  .article1 .t1{
     font-family: 'Lobster', cursive;
     color: rgb(161, 119, 10);
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
-    margin-top: 0px;
+    margin-top: 40px;
 }
  .article1  .t2{
     font-family: 'Palanquin', sans-serif;
@@ -122,6 +144,7 @@
     color: rgba(255, 255, 255, 0.664);
     margin-right: 20px;
     padding: 3px;
+    margin-top: 0px;
 }
 .Habitaciones2 .container .article2{
     width: 100%;
@@ -131,10 +154,10 @@
  .article2 .ti1{
     font-family: 'Lobster', cursive;
     color: rgb(161, 119, 10);
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
-    margin-top: 0px;
+    margin-top: 40px;
 }
  .article2  .ti2{
     font-family: 'Palanquin', sans-serif;
@@ -168,5 +191,6 @@
     color: rgba(255, 255, 255, 0.664);
     margin-left: 20px;
     padding: 3px;
+    margin-top: 0px;
 }
 
