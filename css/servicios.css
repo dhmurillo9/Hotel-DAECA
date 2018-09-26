@@ -22,7 +22,6 @@ body{
 }
 .ubi{
     margin-top: 139px;
-    margin-bottom: 80px;
     width: 50%;
     height: auto;
 }
@@ -40,6 +39,7 @@ body{
 }
 .img1 p{
     color: white;
+    text-align: justify;
 }
 img.img2{
     margin-top: 269px;
