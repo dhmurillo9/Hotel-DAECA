@@ -6,14 +6,12 @@
     font-family: 'Palanquin', sans-serif;
 }
 .fondo{
-    background-color: #273c75;
+    background-color: white;
 }
 .container.section .slider .slides{
     position: relative;
    
 }
-
-
 .slider .slides li img{
     position: relative;
     margin-top: 64px;
@@ -27,18 +25,18 @@
     height: 400px;
     width: 100%;
     z-index: 1;
+    animation-duration: 4s;
 }
 .info p{
     margin-top: 40px;
-    color: rgba(255, 255, 255, 0.664);
+    color:#0F1D2E ;
     font-family: 'Palanquin', sans-serif;
+    padding: 20px;
 }
-
-
 .re_info{
     width: 127px;
     height: 33px;
-    border: 2px solid white;
+    border: 2px solid red;
     display: inline-block;
     border-radius: 10px;
     text-align: justify;
@@ -53,24 +51,41 @@
     font-size: .875em;
     padding: .75em;
     letter-spacing: .142em;
+    
 }
-
-
+.datepicker{
+    border: 3px solid red;
+}
 .fecha .row{
     width: 110%;
     float: left;
+    margin: 0 50px 8px -54px;
 }
    
 .telef .material-icons{
     text-align: left;
+    vertical-align: -7px;
+    color: #0F1D2E;
 }
 .telef{
     margin-top: 24px;
-    margin-left: -30px
+    text-align: left;
+    color: #0F1D2E;
 }
 .fecha .row .btn{
+    margin-top: -3%;
     float: right;
-    }
+    width: 127px;
+    height: 33px;
+    border: 2px solid #0F1D2E;
+    background: none;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(15, 29, 46);
+    padding: 3px;
+    font-weight: bold;
+
+}
 
 /*pc grande*/
 
