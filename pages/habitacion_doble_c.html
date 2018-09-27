@@ -7,26 +7,126 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../js/materialize.js">
     <link rel="stylesheet" href="../css/materialize.css">
-    <link rel="stylesheet" href="../css/habit_dobles.css">
-    <link rel="stylesheet" href="../css/reservas.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/habitaciones.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Doble cama</title>
 </head>
 
+
 <body>
-    <header>
-		<div class="menu_bar">
-			<i class="material-icons">menu</i>
-		</div>
- 
-		<nav>
-			<ul>
-				<li><a href="#"><span class="icon-house"></span>Inicio</a></li>
-				<li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
-				<li><a href="#"><span class="icon-mail"></span>Habitaciones</a></li>
-			</ul>
-		</nav>
-	</header>
+
+    <body class="fondo">
+        <section class="secNav">
+            <img class="logo-DAECA" src="../assets/logo-DAECA.png" alt="">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="reservas.html">Reservas</a>
+                        </li>
+                        <li>
+                            <a href="servicios.html">Servicios</a>
+                        </li>
+                    </ul>
+                    <ul class="right login">
+                        <li>
+                            <a href="login.html">Iniciar Sesión</a>
+                        </li>
+                        <li>
+                            <a href="registro.html">Registrarse</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="../assets/habitaciones/slider1.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="../assets/habitaciones/slider2.jpeg">
+                    <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="../assets/habitaciones/slider3.jpg">
+                    <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="../assets/piscina.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <p>Nuestra Suite ofrece un estilo moderno. Suites el tamaño de la habitación es de 70 m², Esta habitación
+                            es la más grande que ofrece DAECA. Dormitorio: 1 cama King Size Suite insonorizada con albornoz
+                            y aire acondicionado. Equipamiento de la habitación: Teléfono, Caja fuerte, Aire acondicionado,
+                            Calefacción, Insonorización, Secador de pelo, Albornoz, Artículos de aseo gratuitos, Aseo, Baño,
+                            Bañera y ducha, Servicio de despertador, Toallas / sábanas, Toallas, Ropa de cama, Televisión
+                            en color espejo, Chimenea, Balcones privados grandes. Hay conexión WiFi gratuita en la habitación.
+                            Un completo desayuno marroquí con un toque de estilo italiano. Agua, jugos frescos, fruta, té,
+                            café, capuchino y pasteles marroquíes incluidos en las tarifas de las habitaciones. Teléfono
+                            móvil para comunicarse con nuestro DAECA las 24 horas, Wi-Fi, recepción 24/24, vigilante nocturno.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fecha">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col s2 m2 l2 left-align">
+                        <input type="text" class="datepicker">
+                    </div>
+                    <div class="col s2 m2 l2 center-align">
+
+                        <input type="text" class="datepicker">
+                    </div>
+                    <div class="col s2 m2 l2 right-align">
+
+                        <input type="text" class="timepicker">
+                    </div>
+
+                    <p class="telef">
+                        <i class="material-icons">phone</i>
+                        00212524386364</p>
+
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Reservar</button>
+                </div>
+            </div>
+
+        </section>
 
 
 
@@ -40,9 +140,12 @@
 
 
 
-    
+
+
         <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
         <script src="../js/materialize.js"></script>
-        <script src="../js/doble.js"></script>
-</body>
+        <script src="../js/habitaciones.js"></script>
+
+    </body>
+
 </html>
