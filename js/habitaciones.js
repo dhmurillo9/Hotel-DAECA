@@ -6,14 +6,20 @@
         interval:1000
     });
     
-    AOS.init();
 
-  }) 
+
+  });
+
 
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems);
-    var instance = M.Datepicker.getInstance(elems,{
-      
-    });
+    var elemshora = document.querySelectorAll('.datepicker');
+    var instancehora = M.Datepicker.init(elemshora);
+    var instancehora = M.Datepicker.getInstance(elemshora)
+    
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.timepicker');
+    var instances = M.Timepicker.init(elems);
+  });
+  

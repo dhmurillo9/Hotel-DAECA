@@ -14,26 +14,28 @@
 }
 
 
-.slider .slides li img {
-
+.slider .slides li img{
     position: relative;
-    margin-top: 48px;
+    margin-top: 52px;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
 .info p{
-    text-align: justify;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.664);
+    font-family: 'Palanquin', sans-serif;
 }
+
 
 .re_info{
     width: 127px;
     height: 33px;
     border: 2px solid white;
     display: inline-block;
-    text-align: justify;
     border-radius: 10px;
+    text-align: justify;
     color: rgba(255, 255, 255, 0.664);
     margin-left: 20px;
     padding: 3px;
@@ -45,4 +47,72 @@
     font-size: .875em;
     padding: .75em;
     letter-spacing: .142em;
+}
+
+.card-panel {
+    /* display: inline-block; */
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: -45px;
+    height: 260px;
+/*pc grande*/
+
+@media only screen and (min-width:1200px){
+    .container.section{
+        width: 70%;
+    }
+    .info{
+        width: 70%;
+        
+    }
+    .info p{
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: -360px;
+    }
+}
+
+
+@media only screen and (min-width:992px)and (max-width:1199px){
+    .container.section{
+        width: 70%;
+    }
+    .info{
+        width: 70%;  
+    }
+    .info p{
+        text-align: justify;
+       margin-left:-30px;
+        margin-right: -363px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:992px){
+    .container.section{
+        width: 90%;
+    }
+    .info{
+        width: 90%;
+        
+    }
+    .info p{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: -30px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .container.section{
+        width: 90%;
+    }
+    .info{
+        width: 90%;
+        
+    }
+    .info p{
+        text-align: justify;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
 }
