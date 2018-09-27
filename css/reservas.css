@@ -9,14 +9,16 @@
 .container.section .slider .slides{
     position: relative;
     width: 100%;
+   
 }
-.slider .slides li img {
+.slider .slides li img{
     position: relative;
-    margin-top: 48px;
+    margin-top: 63px;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .habitaciones{
@@ -159,8 +161,6 @@
     height: auto;
     display: inline-block;
 }
-
-}
 .article1 p{
     font-family: 'Palanquin', sans-serif;
     color: rgba(255, 255, 255, 0.664);
@@ -184,6 +184,10 @@
     width: 100%;
     height: auto;
     display: inline-block;
+}
+
+.Habitaciones2 .cont{
+    margin-bottom: 25px;
 }
 
  .article2 .ti1{
@@ -226,12 +230,91 @@
     color: rgba(255, 255, 255, 0.664);
     margin-left: 20px;
     padding: 3px;
-<<<<<<< HEAD
-    margin-top: 0px;
-=======
-
->>>>>>> d61613cbf769a8f8b83fd788f8a2ad47d02a32b6
+}
+.piepag1{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.piepag1 .row{
+    margin-bottom: 3px;
+}
+.totop {
+    height: 41px;
+    width: 48px;
+    position: absolute;
+    text-align: center;
+}
+.piepag1 .totop a{
+    display: block;
+    width: 94%;
+    height: 59%;
+    margin-top: -20px;
+    background-color: rgb(15, 29, 46);
+    transition: 0s;
+}
+.piepag1 .totop a:hover{
+    background-color:  rgba(15, 29, 46, 0.95);
+}
+.piepag1 .material-icons {
+    color: white;
+    font-size: 30px;
+    margin-top: -3px;
+}
+.piepag{
+    background-color: rgb(15, 29, 46);
+    width: 100%;
+    height: 155px;
+}
+.piepag .row .col.l4 {
+    width: 33.3333333333%;
+    margin-left: 24%;
+    margin-top: 1%;
+    left: auto;
+    right: auto;
+    display: inline-block;
+    position: absolute;
+}
+.piepag .facebook, .twitter, .insta{
+    width: 42px;
+    height: 42px;
+    border: 3px solid white;
+    margin: 8px -28px 10px 54px;
+    position: relative;
+    transform: rotate(45deg);
+    display: inline-block;
+    transition: 1s;
+    text-align: center;
+}
+.piepag .facebook:hover{
+    background-color: rgba(0, 0, 255, 0.57);
+}
+.piepag .twitter:hover{
+    background-color: rgba(0, 204, 255, 0.59);
+}
+.piepag .insta:hover{
+    background-color: rgba(183, 43, 226, 0.57);
 }
 
+.piepag .facebook img, .twitter img, .insta img{
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 0px;
+    transform: rotate(-45deg);
+}
+.piepag .pt1{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+    margin-top: 9%;
+    text-align: center;
+}
+.piepag .pt2{
+    font-family: 'Palanquin', sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 12px;
+    margin-top: 1%;
+    text-align: center; 
+}
 
 
