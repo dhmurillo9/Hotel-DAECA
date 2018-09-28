@@ -8,9 +8,9 @@
 .fondo{
     background-color: white;
 }
-.container.section .slider .slides{
+.slider .slides{
     position: relative;
-   
+    height: 540px !important;
 }
 .slider .slides li img{
     position: relative;
@@ -29,6 +29,48 @@
 }
 .slider h3{
     color: #0F1D2E;
+}
+
+
+.arrowright i, .arrowleft i{
+    color: rgb(255, 255, 255);
+}   
+.arrowright, .arrowleft{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.indicators{
+    z-index: 2;
+    color: #0F1D2E;
+}
+
+.arrowleft{
+    left: 80px;
+    top: -15%;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    z-index: 2;
+    transform: translateX(-80px);
+} 
+.arrowright{
+    right: 80px;
+    top: -15%;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    z-index: 2;
+    transform: translateX(80px);
+    
+}   
+.slider:hover .arrowright, .slider:hover .arrowleft{
+    opacity: 1;
+    transform: translateX(0);
+    
 }
 .grey-text{
     color: #0F1D2E;
@@ -55,7 +97,8 @@
     margin-bottom: 20px;
 }
 .fe{
-   border: solid 2px black;
+   border: solid 2px #0F1D2E;
+   margin-left: 183px;
 }
 .fecha .inp{
     margin-top: 10px;
@@ -85,7 +128,16 @@
     padding: 0px;
     margin: 7px 30px;
 }
-
+.icon_servicios .responsive-img {
+    width: 8%;
+    margin-left:10%; 
+}
+.icon_servicios .tser{
+    font-size: 14px;
+    color: #0F1D2E;
+    font-weight: bold;
+    font-family: 'Palanquin', sans-serif;
+}
 
 /*pc grande*/
 
