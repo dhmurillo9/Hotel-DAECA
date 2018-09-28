@@ -59,38 +59,4 @@
     letter-spacing: .142em;
     
 }
-.datepicker{
-    border: 3px solid red;
-}
-
-.fecha .row{
-    width: 135%;
-    margin-left: -48px;
-    display:inline-block;
-}
-   
-.fecha .row .material-icons{
-    margin-top: 22px;
-    color: #0F1D2E;
-    margin-left: 3px;
-
-}
-.telef{
-    margin-left: -338px;
-    margin-top: 17px;
-    color: #0F1D2E;
-}
-
-.fecha .row .btn {
-    margin-top: 1%;
-    margin-left: -162px;
-    width: 127px;
-    height: 40px;
-    border: 2px solid #0F1D2E;
-    background-color: #0F1D2E;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    padding: 0px;
-}
 
