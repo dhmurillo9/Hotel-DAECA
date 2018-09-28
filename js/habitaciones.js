@@ -3,7 +3,7 @@
     var instanceslider = M.Slider.init(elemslider,{
         indicators:false,
         height:500,
-        interval:100
+        interval:1500
     });
     
 
