@@ -5,6 +5,20 @@
     padding: 0;
    font-family: 'Palanquin', sans-serif;
 }
+nav .nav-wrapper{
+    background-color: #0F1D2E;
+    position: relative;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+.logo-DAECA{
+ float: right;
+}
+
+.m{
+    float: right;
+}
 
 .slider .slides{
     position: relative;
@@ -14,7 +28,7 @@
 }
 .slider .slides li img{
     position: relative;
-    margin-top: 63px;
+
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -69,21 +83,17 @@
     
 }
 
-
-
-
-
 .habitaciones{
     background-color: #0F1D2E;
     width: 100%;
-    height: auto;
+    height: 700%;
 }
 .habitaciones h1{
     font-family: 'Lobster', cursive;
     color: rgb(161, 119, 10);
     font-size: 60px;
     text-align: center;
-    margin-top: 85px;
+  
 
 }
 .habitaciones p{
@@ -91,25 +101,29 @@
     color: rgba(255, 255, 255, 0.726);
     font-size: 19px;
     text-align: justify;
-    margin-top: 50px;
+}
+.servicios-iconos{
+    background-color: #0F1D2E;
 }
 
-.habitaciones .icons{
-   
-    display: inline-block;
-    margin: 75px 12px 129px 47px;
+.img-iconos li .responsive-img{
+    width:8%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-right: -9%;
+    display: flex;
+  
 }
-
-.habitaciones img{
-   width: 38%;
-   text-align: center; 
-   margin-bottom: 10px;
-   margin-top: 20px;
-}
-.habitaciones h3{
+.letra{
+    float: left;
     font-family: 'Palanquin', sans-serif;
     color: white;
     font-size: 18px;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 20%;
+    margin-bottom: 10%;
 }
 
 
@@ -284,98 +298,77 @@
     margin-left: 20px;
     padding: 3px;
 }
-.piepag1{
-    background-color: white;
-    width: 100%;
-    height: auto;
+
+/*pc grande*/
+@media only screen and (min-width:1200px){
+    .Container{ 
+        Width:70%;
+    }
+
 }
-.piepag1 .row{
-    margin-bottom: 3px;
+
+
+
+
+/*pc pequeña*/
+@media only screen and (min-width:992px)and (max-width:1199px){
+    .Container{ 
+        Width:70%;
+    }
 }
-.totop {
-    height: 41px;
-    width: 48px;
+
+/*tablet*/
+@media only screen and (min-width:600px) and (max-width:992px){
+    .Container{ 
+        Width:85%;
+    }
+    
+}
+
+/*moviles*/
+@media only screen and (max-width:600px){
+.Container{ 
+    Width:90%;
+}
+.logo-DAECA {
+    height: 56px;
+    width: 136px;
     position: absolute;
+}
+.habitaciones h1{
+    font-size: 22px;
     text-align: center;
 }
-.piepag1 .totop a{
-    display: block;
-    width: 94%;
-    height: 59%;
-    margin-top: -20px;
-    background-color: rgb(15, 29, 46);
-    transition: 0s;
+.habitaciones p{
+    font-size: 18px;
+    text-align: justify;
 }
-.piepag1 .totop a:hover{
-    background-color:  rgba(15, 29, 46, 0.95);
+.img-iconos {
+Width:90%;
+margin-left: 10%;
+margin-right: 10%;
 }
-.piepag1 .material-icons {
+.img-iconos li .responsive-img{
+    width: 26%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 0%;
+  
+}
+.letra{
+    float: left;
+    font-family: 'Palanquin', sans-serif;
     color: white;
-    font-size: 30px;
-    margin-top: -3px;
+    font-weight: bold;
+    font-size: 7.93mm;
+    margin-left: -24%;
+    margin-right: -1%;
+    margin-top: 42%;
+    margin-bottom: 10%;
 }
-.piepag{
-    background-color: rgb(15, 29, 46);
-    width: 100%;
-    height: 155px;
-}
-.piepag .row .col.l4 {
-    width: 33.3333333333%;
-    margin-left: 24%;
-    margin-top: 1%;
-    left: auto;
-    right: auto;
-    display: inline-block;
-    position: absolute;
-}
-.piepag .facebook, .twitter, .insta{
-    width: 42px;
-    height: 42px;
-    border: 3px solid white;
-    margin: 8px -28px 10px 54px;
-    position: relative;
-    transform: rotate(45deg);
-    display: inline-block;
-    transition: 1s;
-    text-align: center;
-}
-.piepag .facebook:hover{
-    background-color: rgba(0, 0, 255, 0.57);
-}
-.piepag .twitter:hover{
-    background-color: rgba(0, 204, 255, 0.59);
-}
-.piepag .insta:hover{
-    background-color: rgba(183, 43, 226, 0.57);
-}
-
-.piepag .facebook img, .twitter img, .insta img{
-    width: 45%;
-    margin-top: 10px;
-    margin-left: 0px;
-    transform: rotate(-45deg);
-}
-.piepag .pt1{
-    font-family: 'Palanquin', sans-serif;
-    color: rgba(255, 255, 255, 0.664);
-    font-size: 15px;
-    margin-top: 9%;
-    text-align: center;
-}
-.piepag .pt2{
-    font-family: 'Palanquin', sans-serif;
-    color: rgba(255, 255, 255, 0.664);
-    font-size: 12px;
-    margin-top: 1%;
-    text-align: center; 
-}
-
-
-@media only screen and (max-width: 601px){
-.row .col.m12 {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+.article1 .t1{
+    font-size: 7.93mm;  
+    font-weight: bold;
 }
 }
