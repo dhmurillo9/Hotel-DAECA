@@ -107,7 +107,7 @@ nav .nav-wrapper{
     width:8%;
     float: left;
     margin-top: 10%;
-    margin-left: 2%;
+    margin-left:  5%;
     margin-right: -9%;
     display: flex;
   
@@ -117,8 +117,8 @@ nav .nav-wrapper{
     font-family: 'Palanquin', sans-serif;
     color: white;
     font-size: 18px;
-    margin-left: -2%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 5.4%;
     margin-top: 20%;
     margin-bottom: 10%;
 }

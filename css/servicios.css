@@ -5,7 +5,22 @@
     padding: 0;
     font-family: 'Palanquin', sans-serif;
 }
-body{
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+
+nav .nav-wrapper{
+    background-color: #0F1D2E;
+    position: fixed;
+    width: 100%;
+}
+.logo-DAECA{
+ float: right;
+ position: relative;
+}
+.fondo{
     background-color: #0F1D2E;
 }
 

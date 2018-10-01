@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var instancesnav = M.Sidenav.init(elemsnav);
     
   });
+
+  
+
+
   document.addEventListener('DOMContentLoaded', function() {
     var elemslider = document.querySelectorAll('.slider');
     var arrowright = document.querySelector('.arrowright')

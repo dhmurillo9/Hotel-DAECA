@@ -1,4 +1,11 @@
-  document.addEventListener('DOMContentLoaded', function() {
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var elemsnav = document.querySelectorAll('.sidenav');
+  var instancesnav = M.Sidenav.init(elemsnav);
+  
+});
+  
+ document.addEventListener('DOMContentLoaded', function() {
     var elemslider = document.querySelectorAll('.slider');
     var arrowright = document.querySelector('.arrowright')
     var arrowleft = document.querySelector('.arrowleft')
