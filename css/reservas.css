@@ -14,10 +14,7 @@ nav .nav-wrapper{
 }
 .logo-DAECA{
  float: right;
-}
-
-.m{
-    float: right;
+ position: absolute;
 }
 
 .slider .slides{
@@ -110,7 +107,7 @@ nav .nav-wrapper{
     width:8%;
     float: left;
     margin-top: 10%;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: -9%;
     display: flex;
   
@@ -120,7 +117,7 @@ nav .nav-wrapper{
     font-family: 'Palanquin', sans-serif;
     color: white;
     font-size: 18px;
-    margin-left: 1%;
+    margin-left: -2%;
     margin-right: 5%;
     margin-top: 20%;
     margin-bottom: 10%;
@@ -322,8 +319,46 @@ nav .nav-wrapper{
     .Container{ 
         Width:85%;
     }
+   
+    .logo-DAECA {
+        height: 63px;
+        width: 146px;
+      
+    }
     
-}
+    .habitaciones h1{
+        font-size: 25px;
+    }
+    .habitaciones p{
+        font-size: 20px;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+    
+    .img-iconos li .responsive-img{
+        width: 9%;
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 2%;
+       
+    }
+    
+    .letra{
+        font-size: 12px;
+        margin-left: -12%;
+        margin-right: 3%;
+        margin-top: 27%;
+        margin-bottom: 8%;
+        text-align: center;
+    }
+    .article1 .t1{
+        font-size: 7.93mm;  
+        font-weight: bold;
+    }
+    }
+    
+    
+
 
 /*moviles*/
 @media only screen and (max-width:600px){
@@ -333,42 +368,38 @@ nav .nav-wrapper{
 .logo-DAECA {
     height: 56px;
     width: 136px;
-    position: absolute;
+    
 }
+
 .habitaciones h1{
     font-size: 22px;
-    text-align: center;
 }
 .habitaciones p{
-    font-size: 18px;
-    text-align: justify;
+   font-size: 18px;
+   margin-left: 1%;
+   margin-right: 1%;
 }
-.img-iconos {
-Width:90%;
-margin-left: 10%;
-margin-right: 10%;
-}
+
 .img-iconos li .responsive-img{
-    width: 26%;
+    width: 15%;
     float: left;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 11%;
     margin-right: 0%;
   
 }
 .letra{
-    float: left;
-    font-family: 'Palanquin', sans-serif;
-    color: white;
     font-weight: bold;
-    font-size: 7.93mm;
-    margin-left: -24%;
-    margin-right: -1%;
-    margin-top: 42%;
-    margin-bottom: 10%;
+    font-size: 100%;
+    margin-left: -15%;
+    margin-right: 1%;
+    margin-top: 27%;
+    margin-bottom: 0%;
+    display: block;
 }
 .article1 .t1{
     font-size: 7.93mm;  
     font-weight: bold;
 }
+
 }
