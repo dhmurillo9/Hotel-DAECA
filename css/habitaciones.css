@@ -139,11 +139,15 @@ nav .nav-wrapper{
     padding: 0px;
     margin: 7px 30px;
 }
-.icon_servicios .responsive-img {
-    width: 8%;
-    margin-left:10%; 
+.icon_servicios .iconh{
+    width: 232px;
+    height: 200px;
+    text-align: center;
 }
-.icon_servicios .tser{
+.icon_servicios .iconh .responsive-img {
+    width: 31%;
+}
+.icon_servicios .iconh .tser{
     font-size: 14px;
     color: #0F1D2E;
     font-weight: bold;
