@@ -42,7 +42,7 @@
      
         <h1 class="texto">FORMULARIO DE REGISTRO</h1>
 
-            <form action="Login.html" method="post" class="form-register" onsubmit="return validar();">
+            <form action="Login.html" method="post" class="form-register">
                 <div class="contenedor-inputs">
                     <div class="caja">
                         <i class="material-icons iconos-form">picture_in_picture</i>
@@ -50,45 +50,31 @@
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">account_circle</i>
-                        <input class="cajas" type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre y Apellidos" required=""><br>
+                        <input class="cajas" type="text"  name="nombre" placeholder="Ingrese Nombre y Apellidos" required=""><br>
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">email</i>
-                        <input class="cajas" type="email" id="email" name="email" placeholder="Correo Electronico" required="">
+                        <input class="cajas" type="email"  name="email" placeholder="Correo Electronico" required="">
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">lock</i>
-                        <input class="cajas" type="password" id="clave" name="clave" placeholder="Contraseña" required="">
+                        <input class="cajas" type="password" name="clave" placeholder="Contraseña" required="">
                     </div>
                     <div class="div-cajas">
                         <i class="material-icons iconos-form">phone</i>
-                        <input class="cajas" type="text" id="telefono" name="telefono" placeholder="Teléfono" required="">
+                        <input class="cajas" type="number"  name="telefono" placeholder="Teléfono" required="">
                     </div>
-                </div>
-                <div class="input-field col s12">
-                    <select class="browser-default">
-                        <option class="a1" value="" disabled selected>Rol o Cargo</option>
-                        <option class="a1" value="1">Administrador</option>
-                        <option class="a1" value="2">Recepcionista</option>
-                        <option class="a1" value="3">Cliente</option>
-                    </select>
-                </div>    
+                </div>   
                 <center>
-                    <button class="btn waves-effect" type="submit" name="action">Reservar</button>
-                    <button class="btn waves-effect" type="submit" name="action">Editar</button>
-                    <button class="btn waves-effect" type="submit" name="action">Guardar</button>
+                    <input class="btn waves-effect" type="submit" value="Guardar">
                 </center>
                         
             </form>
-
-
     
-
-    
-
-            <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
-            <script src="/js/materialize.js"></script>
-            <script src="/js/main.js"></script>
+            <script src="../js/materialize.js"></script>
+            <script src="../js/sweetalert.min.js"></script>
+            <script src="../js/firebase.js"></script>
+            <script src="../js/registro.js"></script>            
         
 
     </body>
