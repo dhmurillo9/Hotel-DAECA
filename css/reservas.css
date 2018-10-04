@@ -295,7 +295,22 @@ nav .nav-wrapper{
     margin-left: 20px;
     padding: 3px;
 }
-
+.iconr{
+    width: 232px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
+.iconr .responsive-img{
+    width: 40%;
+}
+.iconr .trese{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Palanquin', sans-serif;
+}
 /*pc grande*/
 @media only screen and (min-width:1200px){
     .Container{ 
