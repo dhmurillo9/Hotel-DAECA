@@ -20,12 +20,11 @@ background-color: #0F1D2E;
 header{
     width: 100%;
     overflow: hidden;
-
-
 }
 header nav{
 background-color: #0F1D2E;
 }
+
 
 .logo-DAECA{
     height: 64px;
@@ -33,10 +32,10 @@ background-color: #0F1D2E;
     position: absolute;
 }
 
-.sidenav li a{
+header .sidenav li a{
     color: white;
 }
-.sidenav{
+header .sidenav{
     background-color: #0F1D2E;
 }
 /*fin de barra de navegacion*/

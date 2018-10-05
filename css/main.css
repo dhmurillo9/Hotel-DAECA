@@ -464,7 +464,7 @@ border-bottom: none;
     overflow: hidden;
 }
 .img1 img{
-    width: 100%; 
+    width: 100%;
     transform: scale(1);
     transition-duration: 0.5s;
     transition-delay: .1s;
