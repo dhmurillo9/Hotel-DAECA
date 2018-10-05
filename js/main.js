@@ -1,5 +1,10 @@
-  
-    var config = {
+document.addEventListener('DOMContentLoaded', function() {
+    var elemsnav = document.querySelectorAll('.sidenav');
+    var instancesnav = M.Sidenav.init(elemsnav);
+    
+  });
+
+      var config = {
       apiKey: "AIzaSyCCsQr6sJsoRK1ag1BTp685CerTcf5SYds",
       authDomain: "hotel-daeca.firebaseapp.com",
       databaseURL: "https://hotel-daeca.firebaseio.com",
@@ -120,7 +125,6 @@ function registrar(){
     alert("El campo nombre esta vacío");
   }
 }
-AOS.init();
 
   //slider de página de reservas
   document.addEventListener('DOMContentLoaded', function() {

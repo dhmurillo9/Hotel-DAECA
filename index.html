@@ -5,35 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="js/materialize.js">
     <link rel="stylesheet" href="js/main.js">
     <title>Hotel DAECA</title>
 </head>
+
+
+
 <header>
-    <section class="secNav">
-        <center>
-            <img class="logo-DAECA" src="assets/logo-DAECA.png" alt="">
-        </center>
-        <div class=" container">
-            <nav>
-                <ul>
-                    <li><a class="activo" href="">Inicio</a></li>
-                    <li><a href="pages/reservas.html">Reservas</a></li>
-                    <li><a href="pages/servicios.html">Servicios</a></li>
-                </ul>
-                <ul class="right login">
-                    <li><a href="pages/login.html">Iniciar Sesión</a></li>
-                    <li><a href="pages/registro.html">Registrarse</a></li>
-                </ul>
-            </nav>
+    <nav>
+        <div class="nav-wrapper container">
+
+            <a href="#!" class="brand-logo"><img class="logo-DAECA" src="assets/logo-DAECA.png" alt=""></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Inicio</a></li>
+                <li><a href="pages/reservas.html">Habitaciones</a></li>
+                <li><a href="pages/servicios.html">Servicios</a></li>
+                <li><a href="pages/login.html">Iniciar Sesión</a></li>
+                <li><a href="pages/registro.html">Registrarse</a></li>
+            </ul>
         </div>
-    </section>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Inicio</a></li>
+        <li><a href="pages/reservas.html">Habitaciones</a></li>
+        <li><a href="pages/servicios.html">Servicios</a></li>
+        <li><a href="pages/login.html">Iniciar Sesión</a></li>
+        <li><a href="pages/registro.html">Registrarse</a></li>
+    </ul>
 </header>
 
-<body>
+<body class="fondo">
     <section class="part1">
         <div class="row">
             <div class="col m12 part1a">
@@ -98,13 +107,6 @@
     <section class="separador">
     </section>
 
-
-
-
-
-
-
-
 </body>
 <footer class="fondo">
     <div class="container">
@@ -148,6 +150,9 @@
         </div>
     </div>
 </footer>
+
+
+
 <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/main.js"></script>

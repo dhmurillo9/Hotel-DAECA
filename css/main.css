@@ -8,17 +8,46 @@
 .fondo{
     background-color: #0F1D2E;
 }
+
+
+/*barra de navegacion*/
+nav{
+position: relative;
+z-index: 2;
+position: fixed;
+width: 100%;
+background-color: #0F1D2E;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-DAECA{
+    height: 64px;
+    width: 189px;
+    position: absolute;
+}
+
+.sidenav li a{
+    color: white;
+}
+.sidenav{
+    background-color: #0F1D2E;
+}
+/*fin de barra de navegacion*/
+
+
+
+/*login*/
+.fondo1{
+    background-color: #273c75;
+}
+
 .imglogin{
     width: 9%;
     margin-left: 45%;
     margin-bottom: 25px;
-}
-.completo{
-    width: 100%;
-    height: 100%;
-}
-.sinPadding{
-    padding: 0 !important;
 }
 .texto{
     margin: 100px 0 50px 0;
@@ -26,13 +55,13 @@
     text-align: center;
     color: #fff;
 }
-.inputs a.registro{
-    display: block;
-    margin-top: 7px;
-    transition: .3s;
-}
-.inputs a.registro:hover{
-    color: tomato;
+.cajas2{
+    width: 80% !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    border-bottom: none !important;
+    color: #fff;
 }
 
 .iconos-form{
@@ -45,19 +74,6 @@
     color: #fff;
 }
 
-.cajas2{
-    width: 80% !important;
-    height: auto;
-    position: absolute;
-    top: 0;
-    border-bottom: none !important;
-    color: #fff;
-}
-input:focus{
-    border: none !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-}
 .caja{
     margin-top: 0;
     margin-left: 35%;
@@ -68,26 +84,117 @@ input:focus{
     height: 50px;
     position: relative;
 }
-.btn{
-  margin: 20px 10px;
-  }
-.secNav,.secNav div nav,.secNav div nav{
-    background-color: #0F1D2E;  
+.inputs a.registro{
+    display: block;
+    margin-top: 7px;
+    transition: .3s;
 }
-header{
-    width: 100%;
-    overflow: hidden;
+.inputs a.registro:hover{
+    color: tomato;
+}
+/*fin de login*/
+
+
+
+
+/*registro*/
+
+
+.btn{
+    margin: 20px 10px;
+    }
+    .cajas{
+        width: 80% !important;
+        height: auto;
+        position: absolute;
+        top: 0;
+        border-bottom: none !important;
+        color: #fff;
+    }
+    input:focus{
+        border: none !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    .div-cajas{
+        margin-top: 0;
+        margin-left: 35%;
+        margin-bottom: 2%;
+        border: solid 1px #bdc3c7;
+        border-radius: 10px;
+        width: 29%;
+        height: 50px;
+        position: relative;
+    }
+    .iconos-form{
+        position: relative;
+        top: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: solid 1px #bdc3c7;
+        color: #fff;
+    }
+    .btn1 .waves-effect{
+        width: 100px;
+        margin-left:36%; 
+        margin-bottom: 1%;
+        border-right: solid 1px #bdc3c7;
+        border-radius: 10px;
+        float: left;
+    }
+    .btn2 .waves-effect{
+        width: 100px;
+        margin-left: 1%;
+        border-right: solid 1px #bdc3c7;
+        border-radius: 10px;
+    }
+    .btn3 .waves-effect{
+        width: 100px;
+        margin-top: -35px;
+        margin-left: 10%;
+        border-right: solid 1px #bdc3c7;
+        border-radius: 10px;
+        float: left;
+    }
+    .browser-default{
+        width: 29%;
+        border: solid 2px #bdc3c7;
+        border-radius: 10px;
+        margin-left: 35%;
+        margin-bottom: 4%;
+        background-color: #273c75;
+        color: #fff;
+    }
+    .a1{
+        border-radius: 50%;
+    }
+    
+input:focus{
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
-a{
-    font-weight: normal;
+   
+/*fin de registro*/
+
+
+
+
+
+
+
+/*index*/
+
+.completo{
+    width: 100%;
+    height: 100%;
 }
-.secNav{
-    position: relative;
-    z-index: 2;
-    position: fixed;
-    width: 100%
+.sinPadding{
+    padding: 0 !important;
 }
+
 .part1{
     width: 100%;
     height: 700px;
@@ -240,99 +347,14 @@ a{
 }
 
 
+/*fin de index*/
 
-.im1{
-    position: relative;
-    z-index: -1;
-    margin-top: -750px;
-    transform: rotatey(540deg);
-    padding: 0 !important;
-}
-p{
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-}
-h2{
-    font-size: 70px;
-    font-weight: 500;
-    color: white;
-}
-.secNav center{
-    float: left;
-}
-.logo-DAECA{
-    height: 64px;
-    width: 189px;
-    position: absolute;
-}
 
-.cajas{
-    width: 80% !important;
-    height: auto;
-    position: absolute;
-    top: 0;
-    border-bottom: none !important;
-    color: #fff;
-}
-input:focus{
-    border: none !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-}
-.div-cajas{
-    margin-top: 0;
-    margin-left: 35%;
-    margin-bottom: 2%;
-    border: solid 1px #bdc3c7;
-    border-radius: 10px;
-    width: 29%;
-    height: 50px;
-    position: relative;
-}
-.iconos-form{
-    position: relative;
-    top: 10px;
-    margin-left: 15px;
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: solid 1px #bdc3c7;
-    color: #fff;
-}
-.btn1 .waves-effect{
-    width: 100px;
-    margin-left:36%; 
-    margin-bottom: 1%;
-    border-right: solid 1px #bdc3c7;
-    border-radius: 10px;
-    float: left;
-}
-.btn2 .waves-effect{
-    width: 100px;
-    margin-left: 1%;
-    border-right: solid 1px #bdc3c7;
-    border-radius: 10px;
-}
-.btn3 .waves-effect{
-    width: 100px;
-    margin-top: -35px;
-    margin-left: 10%;
-    border-right: solid 1px #bdc3c7;
-    border-radius: 10px;
-    float: left;
-}
-.browser-default{
-    width: 29%;
-    border: solid 2px #bdc3c7;
-    border-radius: 10px;
-    margin-left: 35%;
-    margin-bottom: 4%;
-    background-color: #273c75;
-    color: #fff;
-}
-.a1{
-    border-radius: 50%;
-}
+
+
+
+
+
 /*Fotter*/
 .titulos{
     width: 100%;
@@ -426,18 +448,52 @@ h2{
 
 
 
+
+/*pagina de servicios*/
+.servicio .row{
+    padding-bottom: 62px;
+    margin-bottom: 0;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.651);
+}
+section:nth-child(9).servicio .row{
+border-bottom: none;
+}
+
+.img1{
+    margin-top: 109px; 
+    overflow: hidden;
+}
+.img1 img{
+    width: 100%; 
+    transform: scale(1);
+    transition-duration: 0.5s;
+    transition-delay: .1s;
+    overflow: hidden;
+}
+.img1:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+  }
+.content{
+    margin-top: 80px;
+}
+h1{
+    width: 100%;
+    color: rgb(161, 119, 10);
+    font-family: 'lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: white;
+    text-align: justify; 
+}
+
+/*fin de servicios*/
+
+
 /*pc grande*/
 @media only screen and (min-width:1200px){
-    .secNav div nav ul li a{
-        padding: 0 35px;
-        transition-delay: 0;
-        transition-duration: .3s;
-        transition-property: all;
-    }
-    .secNav div nav ul li a:hover,.activo{
-        background-color: white;
-        color: #0F1D2E;    
-    }
     .separador{
         position: relative;
         width: 100%;
@@ -451,19 +507,8 @@ h2{
 
 
 
-
 /*pc pequeña*/
 @media only screen and (min-width:992px)and (max-width:1199px){
-    .secNav div nav ul li a{
-        padding: 0 35px;
-        transition-delay: 0;
-        transition-duration: .3s;
-        transition-property: all;
-    }
-    .secNav div nav ul li a:hover{
-        background-color: white;
-        color: #0F1D2E;    
-    }
     .separador{
         position: relative;
         width: 100%;

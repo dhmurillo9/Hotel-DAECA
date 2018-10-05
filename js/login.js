@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var elemsnav = document.querySelectorAll('.sidenav');
+  var instancesnav = M.Sidenav.init(elemsnav);
+  
+});
+
+
 var config = {
     apiKey: "AIzaSyB3G1sNiRiMGXR48wR0FAjlF_zaIsMA6c8",
     authDomain: "hotel-daeca-244ad.firebaseapp.com",

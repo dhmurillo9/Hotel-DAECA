@@ -202,9 +202,6 @@ nav .nav-wrapper{
 }
 
 @media only screen and (max-width:600px){
-    .container.section{
-        width: 90%;
-    }
     .info{
         width: 90%;
         

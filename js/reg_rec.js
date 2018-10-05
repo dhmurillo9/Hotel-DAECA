@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-
 const config = {
     apiKey: "AIzaSyDZEH5QjUHB-8nDjClbFhwlvwUOWFOCy-o",
     authDomain: "prueba-984e5.firebaseapp.com",
@@ -33,7 +32,7 @@ $formRegister.addEventListener('submit', async function (event) {
         cedula: dataForm.get('cedula'),
         telefono: dataForm.get('telefono'),
         correo: dataForm.get('email'),
-        rol: 'cliente'
+        rol: 'recepcionista'
     }
     firebase.database().ref(`users/${user.user.uid}`).set(newUser).then(()=> {
         swal("Todo bien!", "ya te as registrado!", "success")
