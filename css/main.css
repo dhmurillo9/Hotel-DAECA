@@ -24,11 +24,10 @@ header{
 }
 
 .logo-DAECA{
-    height: 64px;
-    width: 189px;
-    position: absolute;
+    width: 10%;
+    margin-top: 4px;
+    position: relative;
 }
-
 .sidenav li a{
     color: white;
 }
@@ -210,14 +209,6 @@ input:focus{
     position: relative;
     z-index: 1;
 }
-.DAECA1{
-    margin-top: 50px;
-    margin-right:50px;
-}
-.DAECA1 img{
-    width: 249px;
-    margin-top: 35px;   
-}
 .DAECA2{
     margin-top:450px;
     margin-left: 20px;
@@ -345,67 +336,10 @@ input:focus{
     margin: auto;
     z-index: 2;
 }
-
-
 /*fin de index*/
 
 
-
-
-
-
-
-/*Fotter*/
-.titulos{
-    width: 100%;
-    height: 80px;
-    position: relative;
-}
-.sect{
-    width: 100%;
-    height: 400px;
-    background-color: #bdc3c7;
-}
-h2{
-    font-size: 30px;
-    text-align: center;
-}
-
-.redSocialCont{
-    display: flex;
-    justify-content: center;
-}
- .R1{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    height: auto;
-    /*background-color: #fff;*/
- }
- .R1 div{
-    margin: 15%;
-    width: 70%;
-    transform: rotate(45deg) scale(1);
-    padding-bottom: 70%;
-    height: auto;
-    background-color: #fff;
-    transition-property: all ;
-    transition-delay: .2S;
-    transition-duration: 1s;
-}
-.R1 div:hover{
-    transform:rotate(45deg) scale(1.5);
-    cursor: pointer;
-}
-.R1 div img {
-    border-style: none;
-    position: absolute;
-    width: 70%;
-    margin: 15%;
-    transform: rotate(-45deg);
-
-}
+/**ROMBOCENTRAL*********/
 .width100{
     width: 100%;
 }
@@ -444,6 +378,38 @@ h2{
     position: absolute;
     transform: rotate(-45deg) scale(2.5);
 }
+
+/*Fotter*/
+.fondo{
+    background-color: #0F1D2E;
+    width: 100%;
+    height: 400px;
+    border-top: 2px solid white;
+    position: absolute;
+}
+.fondo .content1{
+    background-color: #0D3F61;
+    height: auto;
+    width: 673px;
+    position: relative;
+    right: 40%;
+    display: inline-block;
+}
+.fondo .content1 .linksfo{
+    display: inline-block;
+}
+.fondo .fot1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.fondo .fot2{
+    color: white;
+}
+
+
+
+
 /*Fotter*/
 
 
