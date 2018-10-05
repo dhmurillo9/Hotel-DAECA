@@ -11,6 +11,26 @@ nav {
     z-index: 2;
     position: fixed;
     width: 100%;
+<<<<<<< HEAD
+=======
+    overflow: hidden;
+}
+header nav{
+background-color: #0F1D2E;
+}
+
+
+.logo-DAECA{
+    height: 64px;
+    width: 189px;
+    position: absolute;
+}
+
+header .sidenav li a{
+    color: white;
+}
+header .sidenav{
+>>>>>>> 3ef357027d4a1e3403fbdb70e51695540cc24c73
     background-color: #0F1D2E;
     }
     .nav-wrapper {

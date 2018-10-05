@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
 
   });
-
+  
   var fecha_inicio = new Date();
   var fecha_final  = new Date();
   var f_i, f_f;
