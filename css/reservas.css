@@ -7,39 +7,39 @@
 }
 /*barra de navegacion*/
 nav {
-position: relative;
-z-index: 2;
-position: fixed;
-width: 100%;
-background-color: #0F1D2E;
-}
-.nav-wrapper {
-    background-color: #0F1D2E;
-}
-
-header{
+    position: relative;
+    z-index: 2;
+    position: fixed;
     width: 100%;
-    overflow: hidden;
-
-
-}
-header nav{
-background-color: #0F1D2E;
-}
-
-.logo-DAECA{
-    height: 64px;
-    width: 189px;
-    position: absolute;
-}
-
-.sidenav li a{
-    color: white;
-}
-.sidenav{
     background-color: #0F1D2E;
-}
-/*fin de barra de navegacion*/
+    }
+    .nav-wrapper {
+        background-color: #0F1D2E;
+    }
+    
+    header{
+        width: 100%;
+        overflow: hidden;
+    }
+    header nav{
+    background-color: #0F1D2E;
+    }
+    
+    
+    .logo-DAECA{
+        height: 64px;
+        width: 189px;
+        position: absolute;
+    }
+    
+    header .sidenav li a{
+        color: white;
+    }
+    header .sidenav{
+        background-color: #0F1D2E;
+    }
+    /*fin de barra de navegacion*/
+
 
 
 .slider .slides{

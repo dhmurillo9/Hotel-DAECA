@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
   });
 
-
-const config = {
+  const config = {
     apiKey: "AIzaSyDZEH5QjUHB-8nDjClbFhwlvwUOWFOCy-o",
     authDomain: "prueba-984e5.firebaseapp.com",
     databaseURL: "https://prueba-984e5.firebaseio.com",
@@ -13,13 +12,14 @@ const config = {
     storageBucket: "prueba-984e5.appspot.com",
     messagingSenderId: "775963729178"
   };
+
   firebase.initializeApp(config);
 const $formRegister = document.querySelector('.form-register')
 var firebaseDB = firebase.database()
 var refUsers = firebase.database().ref('users')
 var user
 
-$formRegister.addEventListener('submit', async function (event) {
+$formRegister.addEventListener('submit', async function (event){
     event.preventDefault()
     const dataForm = new FormData($formRegister)
     user = await firebase.auth().createUserWithEmailAndPassword(dataForm.get('email'), dataForm.get('clave'))

@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var elemsnav = document.querySelectorAll('.sidenav');
     var instancesnav = M.Sidenav.init(elemsnav);
-    
-  });
+
+});
 
 
 const config = {
@@ -12,8 +12,8 @@ const config = {
     projectId: "prueba-984e5",
     storageBucket: "prueba-984e5.appspot.com",
     messagingSenderId: "775963729178"
-  };
-  firebase.initializeApp(config);
+};
+firebase.initializeApp(config);
 const $formRegister = document.querySelector('.form-register')
 var firebaseDB = firebase.database()
 var refUsers = firebase.database().ref('users')
@@ -23,10 +23,10 @@ $formRegister.addEventListener('submit', async function (event) {
     event.preventDefault()
     const dataForm = new FormData($formRegister)
     user = await firebase.auth().createUserWithEmailAndPassword(dataForm.get('email'), dataForm.get('clave'))
-    .catch(function(error) {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-    })
+        .catch(function (error) {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+        })
     let newUser = {
         nombre: dataForm.get('nombre'),
         cedula: dataForm.get('cedula'),
@@ -34,10 +34,10 @@ $formRegister.addEventListener('submit', async function (event) {
         correo: dataForm.get('email'),
         rol: 'recepcionista'
     }
-    firebase.database().ref(`users/${user.user.uid}`).set(newUser).then(()=> {
+    firebase.database().ref(`users/${user.user.uid}`).set(newUser).then(() => {
         swal("Todo bien!", "ya te as registrado!", "success")
         $formRegister.reset()
-    }).catch((e)=>{
+    }).catch((e) => {
         console.log(e)
     })
 })
