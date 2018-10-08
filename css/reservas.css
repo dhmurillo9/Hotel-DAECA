@@ -11,53 +11,33 @@ nav {
     z-index: 2;
     position: fixed;
     width: 100%;
-<<<<<<< HEAD
-=======
-    overflow: hidden;
+}
+.nav-wrapper {
+    background-color: #0F1D2E;
+}
+    
+header{
+        width: 100%;
+        overflow: hidden;
 }
 header nav{
-background-color: #0F1D2E;
+    background-color: #0F1D2E;
 }
-
-
-.logo-DAECA{
-    height: 64px;
-    width: 189px;
-    position: absolute;
+    
+    
+.logo-DAECA{ 
+    position: absolute; 
+    height: 95px;
+    width: auto;
+    margin-top: -16px;
 }
-
+    
 header .sidenav li a{
     color: white;
 }
 header .sidenav{
->>>>>>> 3ef357027d4a1e3403fbdb70e51695540cc24c73
     background-color: #0F1D2E;
-    }
-    .nav-wrapper {
-        background-color: #0F1D2E;
-    }
-    
-    header{
-        width: 100%;
-        overflow: hidden;
-    }
-    header nav{
-    background-color: #0F1D2E;
-    }
-    
-    
-    .logo-DAECA{
-        height: 64px;
-        width: 189px;
-        position: absolute;
-    }
-    
-    header .sidenav li a{
-        color: white;
-    }
-    header .sidenav{
-        background-color: #0F1D2E;
-    }
+}
     /*fin de barra de navegacion*/
 
 

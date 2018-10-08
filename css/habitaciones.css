@@ -17,8 +17,10 @@ nav .nav-wrapper{
     width: 100%;
 }
 .logo-DAECA{
- float: right;
- position: relative;
+    position: relative;
+    width: 16%;
+    margin-top: -17px;
+
 }
 
 .slider .slides{
