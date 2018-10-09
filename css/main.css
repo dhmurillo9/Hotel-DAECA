@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Palanquin');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Palanquin', sans-serif;
 }
-.fondo{
-    background-color: #0F1D2E;
-}
-
 
 /*barra de navegacion*/
 nav{
-position: relative;
-z-index: 2;
-position: fixed;
-width: 100%;
-background-color: #0F1D2E;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background-color: #0F1D2E;
 }
 header{
     width: 100%;
@@ -35,6 +28,9 @@ header{
 }
 .sidenav{
     background-color: #0F1D2E;
+}
+nav .brand-logo{
+    z-index: -1;
 }
 /*fin de barra de navegacion*/
 
@@ -217,8 +213,8 @@ input:focus{
     margin-left: 20px;
 }
 .DAECA2 h2{
-    font-size: 60px;
-    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    font-family: "Pristina",Brush Script MT,Brush Script STD,Monotype Corsiva,Lucida Calligraphy,cursive;
     color:  white;
     text-shadow: 1px 2px #0F1D2E;
    
@@ -234,8 +230,7 @@ input:focus{
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 1110px;
-    z-index: 1;   
+    height: 1110px; 
 }
 
 .cuadro{
@@ -245,9 +240,6 @@ input:focus{
     transform: rotate(45deg);
     margin: 0 auto;
     margin-top: 205px;
-}
-.ratio1-1:before {
-    padding-top: 100%;
 }
 .cuadro2{
     width: 675px;
@@ -260,19 +252,10 @@ input:focus{
 .cuadro2 img{
     margin-left: -580px;
     transform: rotate(-45deg);
-    max-width: 215%;
+    max-width: 100%;
 }
-.cuadro2 div {
-    position: absolute;
-    width: 60%;
-    margin-top: 30%;
-    margin-left: 17%;
-    z-index: 1;
-    text-align: center;
-    transform: rotate(-45deg);
-}
+
 .part2a{
-    z-index: 1;
     position: relative;
     width: 49.5%;
     height: 545px;
@@ -287,7 +270,6 @@ input:focus{
 }
 
 .part2a:hover>img{
-    filter: blur(3px);
     transform: scale(1.1);
     
 }
@@ -309,21 +291,60 @@ input:focus{
     top: 20%;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
 }
+.cuadro1Part1 .flecha1{
+    position: absolute;
+    right: 182px;
+    top: 250px;
+    left: 20%;
+    margin: auto;
+}
+.cuadro1Part1 .flecha2{
+    position: absolute;
+    top: 250px;
+    left: 68%;
+    right: -4%;
+    margin: auto;
+}
+.cuadro1Part1 .flecha1 .responsive-img, .flecha2 .responsive-img{
+    width: 34%;
+    filter: drop-shadow(5px 5px 5px #0F1D2E);
+}
+
 .cuadro2Part2{
     position: absolute;
     width: 60%;
     bottom: 20%;
-    left: 0;
+    left: 0%;
+    top: 44%;
     right: 0;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
+}
+.cuadro2Part2 .flecha1{
+    position: absolute;
+    top: 250px;
+    left: 42%;
+    right: 21%;
+    margin: auto;
+    
+}
+.cuadro2Part2 .flecha2{
+    position: absolute;
+    top: 250px;
+    left: 58%;
+    right: 6%;
+    margin: auto;
+    
+}
+.cuadro2Part2 .flecha1 .responsive-img, .flecha2 .responsive-img{
+    width: 34%;
+    filter: drop-shadow(5px 5px 5px #0F1D2E);
 }
 .textPart1{
     font-family: 'Palanquin', sans-serif;
-    z-index: 1;
     color:  white;
     text-shadow: 1px 2px #0F1D2E;
     font-size: 20px;
@@ -337,56 +358,53 @@ input:focus{
     margin-right: 30%;
     margin-left: 10%;
 }
-.flecha {
-    position: absolute;
-    width: 15%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
-}
+
+
 /*fin de index*/
 
 
 /**ROMBOCENTRAL*********/
-.width100{
-    width: 100%;
-}
-.contCuadrito{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    /*background-color: #fff;*/
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
+
 .cuadrito{
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    height: 0;
+    padding-bottom: 50%;
+    margin: -348px 0 0 355px; 
+    background: #0f1d2e;
     position: relative;
-    padding-bottom: 60%;
-    width: 60%;
-    height: auto;
-    background-color: #0F1D2E;
-    transform: rotate(45deg);
-    padding-left: 0;
-    padding-right: 0;
-    margin: 20%;
-    z-index: 2;
-}
-.cuadrito2{
-    padding-bottom: 96%;
-    width: 96%;
-    height: auto;
-    background-color: #0F1D2E;
-    position: absolute;
-    margin: 2%;
+    transform: rotate(-45deg);
     overflow: hidden;
 }
-.cuadrito2 img{
+.diamond-content{
+    text-align: center;
+    transform: rotate(45deg);
+    width: 100%;
+    left: 0;
+    height: 80%;
+    top: 10%;
     position: absolute;
-    transform: rotate(-45deg) scale(2.5);
+    color: #fff;
+   
 }
+.HD-logo{
+    max-width: 15%;
+    height: auto;
+    margin-top: 15%;
+}
+.diamond-content h3{
+    color: #a67d4a;
+    font-family: "Pristina",Brush Script MT,Brush Script STD,Monotype Corsiva,Lucida Calligraphy,cursive;
+    line-height: 3;
+    margin: 3% 0 0 0;
+    font-size: 5vw;
+    text-shadow: 1px 2px #FFFFFF;
+    width: 100%;
+}
+.diamond-content p{
+    font-size: 1.35vw;
+    width: 100%;
+}
+
 
 /*Fotter*/
 .fondo{
@@ -415,7 +433,7 @@ input:focus{
     transition: 1s;
 }
 .fondo .content1 .linksfo li a:hover{
-    color: rgb(0, 140, 255);
+    color: #a67d4a;
 }
 .fondo .fot2{
     font-size: 14px;
@@ -434,8 +452,8 @@ input:focus{
 }
 
 .fondo .content2 .facebook, .insta, .twitter, .gplus{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-left: 20px;
     border: 2px solid white;
     transform: rotate(45deg);
@@ -446,22 +464,26 @@ input:focus{
 } 
 .fondo .content2 .facebook:hover{
     background-color: rgb(0, 0, 104);
+    border: 2px solid #a67d4a;
 }
 .fondo .content2  .insta:hover{
     background-color: rgb(189, 0, 179);
+    border: 2px solid #a67d4a;
 }
 .fondo .content2  .twitter:hover{
-    background-color: rgb(8, 197, 255);
+    background-color: rgb(8, 164, 255);
+    border: 2px solid #a67d4a;
 }
 .fondo .content2  .gplus:hover{
     background-color: rgb(255, 8, 8);
+    border: 2px solid #a67d4a;
 }
 .fondo .content2 .facebook .responsive-img, .insta .responsive-img, .twitter .responsive-img, .gplus .responsive-img{
     width: 70%;
     position: relative;
     transform: rotate(-45deg);
-    top: 8px;
-    left: 1px;
+    top: 6px;
+    left: 0px;
 }
 
 
