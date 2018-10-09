@@ -131,8 +131,7 @@ function registrar(){
     alert("El campo nombre esta vacío");
   }
 }
-<<<<<<< HEAD
-=======
+
 
   //slider de página de reservas
   document.addEventListener('DOMContentLoaded', function() {
@@ -159,4 +158,4 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.datepicker');
     var instances = M.Datepicker.init(elems);
   });
->>>>>>> ee9a8b5a5ddef7b7c115cf9f80ae24b33379993f
+

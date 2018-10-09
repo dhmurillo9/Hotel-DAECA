@@ -97,53 +97,38 @@ nav .nav-wrapper{
     font-family: 'Palanquin', sans-serif;
     padding: 20px;
 }
-.re_info{
-    width: 127px;
-    height: 33px;
-    border: 2px solid red;
-    display: inline-block;
-    border-radius: 10px;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.664);
-    margin-left: 20px;
-    padding: 3px;
-
+/***RESERVAS**********/
+.reservacion{
+    position: relative;
+    background-color: white;
 }
-.fecha{
-    margin-bottom: 20px;
-}
-.fe{
-   border: solid 2px #0F1D2E;
-   margin-left: 183px;
-}
-.fecha .inp{
-    margin-top: 10px;
-}
-.fecha .t{
-    margin-top: 10px;
-}
- .fecha .inp input{
-    width: 32%;
-    display:inline-block;
-} 
-.fecha .t i{
+.reservacion .material-icons{
     color: #0F1D2E;
-    margin: 15px 5px;
+    margin-top: 15px;
+    margin-left: 25px;
 }
-.fecha .t p{
-    margin: 7px 20px 0 0;
+.reservacion p{
+    color: #0F1D2E;
+    margin-top: 15px;
 }
-.fecha .row .btn1 {
-    width: 127px;
-    height: 40px;
+.reservacion .datepicker{
+    color: #0F1D2E;
+}
+.reservacion .btr1{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 12px;
     border: 2px solid #0F1D2E;
-    background-color: #0F1D2E;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    padding: 0px;
-    margin: 7px 30px;
+    border-radius: 5px;
+    background: none;
+    color: #0F1D2E;
 }
+.reservacion .btr1:hover{
+    border: 2px solid #a67d4a; 
+    color: #a67d4a;
+}
+/****ICONOS***/
 .icon_servicios .iconh{
     width: 232px;
     height: 200px;
