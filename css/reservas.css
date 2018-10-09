@@ -342,6 +342,38 @@ header .sidenav{
     font-weight: bold;
     font-family: 'Palanquin', sans-serif;
 }
+
+/*************RESERVA***************************/
+.reservacion{
+    position: relative;
+    background-color: #0F1D2E;
+}
+.reservacion .material-icons{
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.reservacion p{
+    color: white;
+    margin-top: 15px;
+}
+.reservacion .datepicker{
+    color: white;
+}
+.reservacion .btr1{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 12px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.reservacion .btr1:hover{
+    border: 2px solid #a67d4a; 
+    color: #a67d4a;
+}
 /************FOOTER*************************************/
 .fondo{
     background-color: #0F1D2E;

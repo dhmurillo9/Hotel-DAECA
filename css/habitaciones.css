@@ -97,37 +97,6 @@ nav .nav-wrapper{
     font-family: 'Palanquin', sans-serif;
     padding: 20px;
 }
-/***RESERVAS**********/
-.reservacion{
-    position: relative;
-    background-color: white;
-}
-.reservacion .material-icons{
-    color: #0F1D2E;
-    margin-top: 15px;
-    margin-left: 25px;
-}
-.reservacion p{
-    color: #0F1D2E;
-    margin-top: 15px;
-}
-.reservacion .datepicker{
-    color: #0F1D2E;
-}
-.reservacion .btr1{
-    width: 200px;
-    height: 30px;
-    text-align: center;
-    margin-top: 12px;
-    border: 2px solid #0F1D2E;
-    border-radius: 5px;
-    background: none;
-    color: #0F1D2E;
-}
-.reservacion .btr1:hover{
-    border: 2px solid #a67d4a; 
-    color: #a67d4a;
-}
 /****ICONOS***/
 .icon_servicios .iconh{
     width: 232px;
