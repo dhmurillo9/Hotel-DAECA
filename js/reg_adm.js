@@ -4,16 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
   });
 
-  const config = {
-    apiKey: "AIzaSyDZEH5QjUHB-8nDjClbFhwlvwUOWFOCy-o",
-    authDomain: "prueba-984e5.firebaseapp.com",
-    databaseURL: "https://prueba-984e5.firebaseio.com",
-    projectId: "prueba-984e5",
-    storageBucket: "prueba-984e5.appspot.com",
-    messagingSenderId: "775963729178"
-  };
 
-  firebase.initializeApp(config);
+  var config = {
+    apiKey: "AIzaSyB3G1sNiRiMGXR48wR0FAjlF_zaIsMA6c8",
+    authDomain: "hotel-daeca-244ad.firebaseapp.com",
+    databaseURL: "https://hotel-daeca-244ad.firebaseio.com",
+    projectId: "hotel-daeca-244ad",
+    storageBucket: "hotel-daeca-244ad.appspot.com",
+    messagingSenderId: "957899814726"
+  };
+    firebase.initializeApp(config);
+  
 const $formRegister = document.querySelector('.form-register')
 var firebaseDB = firebase.database()
 var refUsers = firebase.database().ref('users')
@@ -41,3 +42,10 @@ $formRegister.addEventListener('submit', async function (event){
         console.log(e)
     })
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+
+  
