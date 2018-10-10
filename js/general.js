@@ -5,7 +5,7 @@ var user
 
 
 
-function cerrarsesion(){
+/*function cerrarsesion(){
     firebase.auth().signOut().then(function() {
         location.href = ('../pages/login.html')
     }).catch(function(error) {

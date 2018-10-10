@@ -5,6 +5,9 @@
     padding: 0;
     font-family: 'Palanquin', sans-serif;
 }
+body{
+    background-color: white;
+}
 nav{
     width: 100%;
     position: fixed;
@@ -84,63 +87,17 @@ nav .nav-wrapper{
     transform: translateX(0);
     
 }
-
 .grey-text{
     color: #0F1D2E;
 }
+
 .info p{
     margin-top: 40px;
     color:#0F1D2E ;
     font-family: 'Palanquin', sans-serif;
     padding: 20px;
 }
-.re_info{
-    width: 127px;
-    height: 33px;
-    border: 2px solid red;
-    display: inline-block;
-    border-radius: 10px;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.664);
-    margin-left: 20px;
-    padding: 3px;
-
-}
-.fecha{
-    margin-bottom: 20px;
-}
-.fe{
-   border: solid 2px #0F1D2E;
-   margin-left: 183px;
-}
-.fecha .inp{
-    margin-top: 10px;
-}
-.fecha .t{
-    margin-top: 10px;
-}
- .fecha .inp input{
-    width: 32%;
-    display:inline-block;
-} 
-.fecha .t i{
-    color: #0F1D2E;
-    margin: 15px 5px;
-}
-.fecha .t p{
-    margin: 7px 20px 0 0;
-}
-.fecha .row .btn1 {
-    width: 127px;
-    height: 40px;
-    border: 2px solid #0F1D2E;
-    background-color: #0F1D2E;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    padding: 0px;
-    margin: 7px 30px;
-}
+/****ICONOS***/
 .icon_servicios .iconh{
     width: 232px;
     height: 200px;

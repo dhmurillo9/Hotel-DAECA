@@ -31,6 +31,10 @@ function registrar(){
     alert("El campo nombre esta vacío");
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36aca92e134abbb2bf8e5b69c22d24cf76d1eaec
 
   //slider de página de reservas
   document.addEventListener('DOMContentLoaded', function() {

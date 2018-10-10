@@ -66,27 +66,16 @@
     <div class="slider">
         <ul class="slides">
             <li>
-                <a href="../assets/habitaciones/sencilla/1.jpg">
                     <img src="../assets/habitaciones/sencilla/1.jpg">
-                </a>
             </li>
             <li>
-                <a href="../assets/habitaciones/sencilla/2.jpg">
                     <img src="../assets/habitaciones/sencilla/2.jpg">
-                </a>
             </li>
             <li>
-                <a href="../assets/habitaciones/sencilla/4.jpg">
                     <img src="../assets/habitaciones/sencilla/4.jpg">
-                </a>
             </li>
             <li>
                 <img src="../assets/habitaciones/sencilla/5.jpg">
-                <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
             </li>
         </ul>
         <div class="arrowleft">
@@ -101,8 +90,8 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l12">
-                    <p> Nuestra habitacion sencilla contiene 25 M2 y cuenta con el siguiente equipamiento de habitación: Teléfono,
-                        Aire acondicionado, Escritorio, Calefacción, Albornoz, Artículos de aseo gratuitos, Aseo, Television
+                    <p> Nuestra habitación sencilla contiene 25 M2 y cuenta con el siguiente equipamiento de habitación: Teléfono,
+                        Aire acondicionado, Escritorio, Calefacción, Albornoz, Artículos de aseo gratuitos, Aseo, Televisión
                         a color, Baño, Bañera o ducha, Servicio de despertador, Secador de pelo, Conexión USB y Bluetooth
                         para música . (Podemos proporcionar cama supletoria para una Segunda persona en esta categoría por
                         30 euros por día-disponibilidad en la habitación)
@@ -243,35 +232,75 @@
             </div>
         </div>
     </section>
-    <section class="fecha">
-        <div class="container fe">
+    <section class="reservacion">
+        <div class="container">
             <div class="row">
-                <div class="inp col s6 m6">
-                    <input type="text" placeholder="Fecha Inicio" class="datepicker center-align">
-                    <input type="text" placeholder="Fecha Finalización" class="datepicker center-align">
-                    <input type="text" placeholder="Hora" class="timepicker center-align" readonly>
+                <div class=" col m2 l2 s6">
+                    <input type="text" class="datepicker" id="inicio" placeholder="Fecha Inicio">   
                 </div>
-                <div class="t col s6 m6">
+                <div class="col m2 l2 s6">
+                    <input type="text" class="datepicker" id="final" placeholder="Fecha Final">
+                </div>
+                <div class=" col m4 l4 s6">
                     <i class="left material-icons">phone</i>
                     <p class="left">00212524386364</p>
-                    <button class="btn1 right waves-effect waves-light" type="submit" name="action">Reservar</button>
+                </div>
+                <div class="col m2 l2 s6">
+                    <a href="tabla.html">
+                            <button class="btr1 right waves-effect waves-light" type="submit" name="action">Comprobar disponibilidad</button>
+                            
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer class="fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col m4 l4 s6">
+                    <div class="content1">
+                        <ul class="linksfo">
+                            <li class="col m4 s4">
+                                <a href="#">Responsabilidad Social Empresarial</a>
+                            </li>
+                            <li class="col m4 s4">
+                                <a href="#"> Política de Privacidad</a>
+                            </li>
+                            <li class="col m4 s4">
+                                <a href="#">Términos de uso</a>
+                            </li>
+                        </ul>
+                        <div class="col m12 s12">
+                            <p class="fot2">© 2018 Hotel DAECA - Sitio web creado por DAECA Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="col m2 l2 s2">
+                        <a class="facebook" href="#">
+                            <img class="responsive-img" src="../assets/facebook.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col m2 l2 s2">
+                        <a class="insta" href="#">
+                            <img class="responsive-img" src="../assets/instagram.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col m2 l2 s2">
+                        <a class="twitter" href="#">
+                            <img class="responsive-img" src="../assets/twitter.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col m2 l2 s2">
+                        <a class="gplus" href="#">
+                            <img class="responsive-img" src="../assets/gplus.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
     <script src="../js/materialize.js"></script>
