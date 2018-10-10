@@ -4,7 +4,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 /*barra de navegacion*/
 nav{
@@ -37,150 +39,116 @@ nav .brand-logo{
 
 
 /*login*/
-.fondo1{
-    background-color: #273c75;
-}
-
-.imglogin{
-    width: 9%;
-    margin-left: 45%;
-    margin-bottom: 25px;
-}
-.texto{
-    margin: 100px 0 50px 0;
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-
-}
-.cajas2{
-    width: 80% !important;
+.loggin{
     height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    font-family: Roboto;
+}
+
+.form{
+    position: relative;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    max-width: 500px;
+    margin: 48x auto;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 40px; */
+}
+
+.form .toggle{
     position: absolute;
-    top: 0;
-    border-bottom: none !important;
-    color: #fff;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid  #0075d9;
+    border-bottom: 2px solid #0075d9;
+    transition: all .5s ease;
+    cursor: pointer;
 }
 
-.iconos-form{
-    position: relative;
-    top: 10px;
-    margin-left: 15px;
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: solid 1px #bdc3c7;
-    color: #fff;
+.form .toggle span{
+    letter-spacing: 1px;
 }
 
-.caja{
-    margin-top: 0;
-    margin-left: 35%;
-    margin-bottom: 2%;
-    border: solid 1px #bdc3c7;
-    border-radius: 10px;
-    width: 29%;
-    height: 50px;
-    position: relative;
+.form .toggle:hover{
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
 }
-.inputs a.registro{
+
+.form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="number"] {
+    outline: none;
     display: block;
-    margin-top: 7px;
-    transition: .3s;
-}
-.inputs a.registro:hover{
-    color: tomato;
-}
-/*fin de login*/
-
-
-
-
-/*registro*/
-
-
-.btn{
-    margin: 20px 10px;
-    }
-    .cajas{
-        width: 80% !important;
-        height: auto;
-        position: absolute;
-        top: 0;
-        border-bottom: none !important;
-        color: #fff;
-    }
-    input:focus{
-        border: none !important;
-        box-shadow: none !important;
-        -webkit-box-shadow: none !important;
-    }
-    .div-cajas{
-        margin-top: 0;
-        margin-left: 35%;
-        margin-bottom: 2%;
-        border: solid 1px #bdc3c7;
-        border-radius: 10px;
-        width: 29%;
-        height: 50px;
-        position: relative;
-    }
-    .iconos-form{
-        position: relative;
-        top: 10px;
-        margin-left: 15px;
-        margin-right: 10px;
-        padding-right: 10px;
-        border-right: solid 1px #bdc3c7;
-        color: #fff;
-    }
-    .btn1 .waves-effect{
-        width: 100px;
-        margin-left:36%; 
-        margin-bottom: 1%;
-        border-right: solid 1px #bdc3c7;
-        border-radius: 10px;
-        float: left;
-    }
-    .btn2 .waves-effect{
-        width: 100px;
-        margin-left: 1%;
-        border-right: solid 1px #bdc3c7;
-        border-radius: 10px;
-    }
-    .btn3 .waves-effect{
-        width: 100px;
-        margin-top: -35px;
-        margin-left: 10%;
-        border-right: solid 1px #bdc3c7;
-        border-radius: 10px;
-        float: left;
-    }
-    .browser-default{
-        width: 29%;
-        border: solid 2px #bdc3c7;
-        border-radius: 10px;
-        margin-left: 35%;
-        margin-bottom: 4%;
-        background-color: #273c75;
-        color: #fff;
-    }
-    .a1{
-        border-radius: 50%;
-    }
-    
-input:focus{
-    border: none !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #0075d9;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
 }
 
-   
-/*fin de registro*/
+.form input[type="submit"] {
+    background: #0075d9;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
 
+.form input[type="submit"]:hover {
+    background: #479be4;
+}
 
+.form .reset-password{
+    background: #479be4;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+}
 
+.form .reset-password a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
 
+.form .formulario{
+    padding: 40px;
+    display: none;
+}
 
+.form .formulario:nth-child(2){
+    display: block;
+}
 
 
 /*index*/

@@ -36,9 +36,6 @@
                 <li>
                     <a href="">Iniciar Sesión</a>
                 </li>
-                <li>
-                    <a href="registro.html">Registrarse</a>
-                </li>
             </ul>
         </div>
     </nav>
@@ -55,46 +52,46 @@
         <li>
             <a href="">Iniciar Sesión</a>
         </li>
-        <li>
-            <a href="registro.html">Registrarse</a>
-        </li>
     </ul>
 </header>
 
 <body class="fondo1">
 
-    <section class="inputs">
-        <div class="container">
-            <div class="row">
-
-                <div class="col s12 m12 l12">
-
-                    <h4 class="texto">Ingreso de usuarios</h4>
-                    <div class="imglogin">
-                        <img class="responsive-img" src="../assets/login.png" alt="">
-                    </div>
-
-                    <form action="index.html" method="post" class="form-ingresar">
-                        <div class="caja">
-                            <i class="material-icons iconos-form">email</i>
-                            <input class="cajas2" type="email" name="correo" placeholder="Ingrese email" required="">
-                        </div>
-                        <div class="caja">
-                            <i class="material-icons iconos-form">lock</i>
-                            <input class="cajas2" type="password" name="clave" placeholder="Ingrese contraseña" required="">
-                        </div>
-                        <center>
-                            <input type="submit" value="Ingresar" class="btn waves-effect">
-                            <a href="registro.html" class="registro"> Registrate</a>
-                        </center>
-                    </form>
-
-                </div>
+    <section class="loggin">
+    <center>
+        <div class="form">
+            <div class="toggle">
+                <span> Crea Cuenta</span>
             </div>
-        </div>
-        </div>
-    </section>
 
+            <div class="formulario">
+                <h2>Iniciar Sesión</h2>
+                <form action="#" method="post" class="ingresar">
+                    <input type="text" name="email2" placeholder="Email" required>
+                    <input type="password" name="pass2" placeholder="Contraseña" required>
+                    <input type="submit" value="Iniciar Sesión" onclick="ingreso()">
+                </form>
+            </div>
+
+            <div class="formulario">
+                <h2>Crea tu Cuenta</h2>
+                <form action="#" method="post" class="form-register">
+                    <input type="text" name="usuario" placeholder="Usuario" required>
+                    <input type="password" name="pass" placeholder="Contraseña" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <input type="number" name="telefono" placeholder="Teléfono" required>
+                    <input type="number" name="cedula" placeholder="Cedula" required>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+
+            <div class="reset-password">
+                <a href="#"> Olvide mi Contraseña?</a>
+            </div>
+
+        </div>
+    </center>
+</section>
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
