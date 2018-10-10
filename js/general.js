@@ -36,4 +36,4 @@ firebase.auth().onAuthStateChanged(function (userregistro) {
             location.href = ('pages/login.html')
         }
     }
-});
+});*/

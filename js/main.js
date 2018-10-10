@@ -16,26 +16,6 @@ var config = {
     firebase.initializeApp(config);
   
 
-  //registro administrador y recepcionista
-  
-function registrar(){
-  var nombre, correo, usuario, clave, telefono;
-  nombre = document.getElementById('nombre').value;
-  apellidos = document.getElementById('apellidos').value;
-  correo = document.getElementById('correo').value;
-  usuario = document.getElementById('usuario').value;
-  clave = document.getElementById('clave').value;
-  telefono = document.getElementById('telefono').value;
-
-  if (nombre === ''){
-    alert("El campo nombre esta vacío");
-  }
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> 36aca92e134abbb2bf8e5b69c22d24cf76d1eaec
-
   //slider de página de reservas
   document.addEventListener('DOMContentLoaded', function() {
     var elemslider = document.querySelectorAll('.slider')

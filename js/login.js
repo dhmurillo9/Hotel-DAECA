@@ -23,6 +23,7 @@ var config = {
   firebase.initializeApp(config);
 
   const $formRegister = document.querySelector('.form-register')
+  const $formLogin = document.querySelector('#formLogin')
   var firebaseDB = firebase.database()
   var refUsers = firebase.database().ref('users')
   var user
@@ -43,21 +44,21 @@ var config = {
           rol: 'cliente'
       }
       firebase.database().ref(`users/${user.user.uid}`).set(newUser).then(() => {
-          swal("Todo bien!", "ya te as registrado!", "success")
+        const user = firebase.auth().currentUser;
           $formRegister.reset()
+          swal("Todo bien!", "ya te as registrado!", "success")
       }).catch((e) => {
-          console.log('isiisis')
+          console.log(e)
       })
   })
   
 
-
-  
-  function ingreso(){
-    var email2 = document.getElementById('email2').value;
-    var pass2 = document.getElementById('pass2').value;
-
-    firebase.auth().signInWithEmailAndPassword(email2, pass2)
+$formLogin.addEventListener('submit', (event) => {
+    event.preventDefault()
+    const formData = new FormData($formLogin)
+    firebase.auth().signInWithEmailAndPassword(formData.get('email2'), formData.get('pass2')).then( user => {
+        console.log(user)
+    })
     .catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
@@ -65,7 +66,8 @@ var config = {
         console.log(errorCode);
         console.log(errorMessage);
         // ...
-      });
-}
+      })
+})
+
 
 
